@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "Ranger la fenêtre";
+"menu.margin" = "Marge du Dock";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "Personnaliser…";
+"menu.shortcut" = "Raccourci";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    Par défaut";
+"menu.roleSecond" = "    Deuxième choix";
+"menu.roleThird" = "    Troisième choix";
+"menu.login" = "Ouvrir à l’ouverture de session";
+"menu.loginPending" = "Ouvrir à l’ouverture de session (approbation requise)…";
+"menu.permission" = "Accessibilité…";
+"menu.permissionOn" = "Accessibilité : autorisée…";
+"menu.permissionOff" = "Accessibilité : non autorisée…";
+"menu.recheck" = "Revérifier l’autorisation et le raccourci";
+"menu.memoryCurrent" = "Mémoire actuelle : —";
+"menu.memoryCurrentFormat" = "Mémoire actuelle : %@";
+"menu.memoryCurrentFail" = "Mémoire actuelle : illisible";
+"menu.memoryAverage" = "Moyenne cette fois : —";
+"menu.memoryAverageFormat" = "Moyenne cette fois : %@";
+"menu.memoryStartup" = "Résidente au lancement : —";
+"menu.memoryStartupFormat" = "Résidente au lancement : %@";
+"menu.memoryStartupFail" = "Résidente au lancement : illisible";
+"menu.ready" = "Prêt";
+"menu.diagnostics" = "État et diagnostic…";
+"menu.about" = "À propos de SideSpace…";
+"menu.quit" = "Quitter SideSpace";
+"menu.language" = "Langue";
+"menu.languageFollow" = "Suivre le système";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "Impossible d’enregistrer le raccourci (%d). Choisissez-en un autre ou libérez la même combinaison dans une autre app.";
+"status.needPermission" = "Autorisez l’accessibilité depuis le menu, puis utilisez le raccourci.";
+"status.ready" = "Prêt";
+"status.displayChanged" = "L’écran ou l’état de veille a changé. Le prochain raccourci relit la disposition.";
+"status.marginSaved" = "Marge enregistrée. Elle s’applique au prochain raccourci. La fenêtre actuelle ne bouge pas.";
+"status.marginUnsaved" = "La marge s’applique pour cette session, mais le réglage n’a pas pu être enregistré.";
+"status.shortcutSaved" = "Le raccourci est actif.";
+"status.shortcutUnsaved" = "Le raccourci fonctionne pour cette session, mais le réglage n’a pas pu être enregistré.";
+"status.shortcutNew" = "Le nouveau raccourci est actif.";
+"status.shortcutNewUnsaved" = "Le nouveau raccourci fonctionne pour cette session, mais le réglage n’a pas pu être enregistré.";
+"status.shortcutRestoreFail" = "Impossible de rétablir le raccourci précédent. Définissez-le à nouveau ou supprimez un conflit dans une autre app.";
+"status.permissionOpened" = "Autorisez SideSpace dans Réglages Système, puis choisissez « Revérifier l’autorisation et le raccourci ».";
+"status.recheckConflict" = "Le raccourci n’est toujours pas enregistré. Vérifiez un raccourci en conflit.";
+"status.recheckReady" = "L’autorisation et le raccourci sont prêts.";
+"status.recheckDenied" = "L’accessibilité n’est toujours pas autorisée. Après une recompilation, retirez l’ancienne entrée puis ajoutez SideSpace.";
+"status.loginNeedsApproval" = "L’élément d’ouverture a besoin d’une approbation. Ouvrez les éléments d’ouverture dans Réglages Système.";
+"status.loginUpdated" = "L’ouverture à la session a été mise à jour.";
+"status.languageSaved" = "Langue mise à jour.";
+"status.languageUnsaved" = "La langue a changé pour cette session, mais le réglage n’a pas pu être enregistré.";
+"alert.ok" = "OK";
+"alert.save" = "Enregistrer";
+"alert.cancel" = "Annuler";
+"alert.runningTitle" = "SideSpace est déjà ouvert";
+"alert.runningBody" = "Une autre copie de SideSpace est ouverte. Deux copies se disputent le même raccourci.\n\nChoisissez « Quitter l’autre » pour la fermer et ouvrir celle-ci.";
+"alert.runningReplace" = "Quitter l’autre";
+"alert.restore" = "Rétablir la valeur par défaut";
+"alert.hotkeyTitle" = "Impossible d’enregistrer le raccourci";
+"alert.hotkeyBody" = "Le système a renvoyé %d. Choisissez une autre combinaison ou libérez la même dans Raycast ou une autre app.";
+"alert.marginTitle" = "Marge du Dock";
+"alert.marginBody" = "Saisissez un entier de 0 à 500. L’unité est le point macOS (pt).\nL’espace réservé au Dock n’est pas ajouté une seconde fois.\nRéserver un espace à gauche de l’écran choisi. Avec un seul écran, y appliquer la marge. Les autres utilisent la zone visible.";
+"alert.marginBadTitle" = "Saisissez une marge valide";
+"alert.marginBadBody" = "Seuls les entiers de 0 à 500 sont acceptés, par exemple 50.";
+"alert.recordTitle" = "Définir le raccourci global";
+"alert.recordBody" = "Appuyez sur la nouvelle combinaison ci-dessous. Le raccourci actuel est en pause pendant l’enregistrement.\n« Rétablir la valeur par défaut » revient à ⌥⌘A. Le deuxième choix est ⌥A, le troisième est ⌃⌥⌘→.";
+"alert.recordBadTitle" = "Ce raccourci ne peut pas être utilisé";
+"alert.recordBadBody" = "Utilisez une combinaison qui contient Contrôle, Option ou Commande. Cette touche ne peut pas être un raccourci global.";
+"alert.loginTitle" = "Impossible de modifier l’ouverture à la session";
+"alert.loginBody" = "%@\n\nInstallez l’app dans un dossier Applications permanent, puis ouvrez-la et réessayez. N’activez pas l’ouverture à la session depuis un dossier de compilation temporaire.";
+"alert.loginDenied" = "Le système n’a pas approuvé la demande.";
+"alert.diagnosticsTitle" = "État de SideSpace";
+"alert.diagnosticsBody" = "Version : 1.0.0\nSystème : %@\nChemin : %@\nAccessibilité : %@\nRaccourci : %@ (enregistrement %@)\nMarge du Dock: %d pt\nOccupé : %@\nDernier état : %@%@\n\nCette app n’envoie aucun journal. Le diagnostic n’inclut pas les onglets ni le contenu des pages Chrome.";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "Un outil de barre des menus qui range la fenêtre de Google Chrome.\nCompatible : Apple Silicon, macOS 26.0 ou ultérieur.\n\nSi Chrome n’est pas au premier plan, le raccourci se contente de l’afficher.\nRéserver un espace à gauche de l’écran choisi. Avec un seul écran, y appliquer la marge. Les autres utilisent la zone visible.\n\nLe raccourci par défaut est ⌥⌘A. Vous pouvez le changer dans le menu.\nIl ne lit pas le contenu des pages et n’utilise pas le réseau.";
+"alert.welcomeTitle" = "Bienvenue dans SideSpace";
+"alert.welcomeBody" = "Choisissez « Autoriser », puis activez SideSpace en suivant ce chemin :
+
+Réglages Système → Confidentialité et sécurité → Accessibilité
+
+Sélectionnez SideSpace dans la liste et activez le commutateur à côté. S’il n’apparaît pas, cliquez sur « + » en bas à gauche, choisissez SideSpace, puis activez le commutateur.
+
+Les Réglages Système décrivent cette autorisation de façon large. SideSpace ne l’utilise que pour déplacer et redimensionner la fenêtre Chrome. Il ne lit pas le contenu des pages, n’enregistre pas les touches, ne fait pas de capture d’écran et n’utilise pas le réseau. Une fois le commutateur activé, le raccourci par défaut ⌥⌘A est prêt.";
+"alert.allow" = "Autoriser";
+"alert.later" = "Plus tard";
+"alert.authorizedDone" = "C’est fait";
+"alert.welcomeGrantedTitle" = "L’accessibilité est autorisée";
+"alert.welcomeGrantedBody" = "SideSpace peut maintenant ranger la fenêtre Chrome. Le raccourci par défaut est ⌥⌘A.";
+"diag.allowed" = "Autorisée";
+"diag.denied" = "Non autorisée";
+"diag.registered" = "réussi";
+"diag.failed" = "échoué";
+"diag.yes" = "Oui";
+"diag.no" = "Non";
+"diag.errorMark" = "[Erreur] ";
+"key.space" = "Espace";
+"key.unknown" = "Touche %u";
+"recorder.hint" = "Cliquez ici, puis appuyez sur la nouvelle combinaison.\nElle doit contenir Contrôle, Option ou Commande.";
+"recorder.needMods" = "Incluez Contrôle, Option ou Commande. Majuscule seule n’est pas acceptée.";
+"recorder.reserved" = "C’est un raccourci courant du système ou d’une app. Choisissez une autre combinaison.";
+"recorder.captured" = "Enregistré. L’enregistrement vérifie si le système l’accepte.\nTous les conflits avec d’autres apps ne peuvent pas être détectés.";
+"recorder.access" = "Zone d’enregistrement du raccourci";
+"ax.format" = "%@ (AX %d)";
+"ax.disabled" = "L’accessibilité est désactivée ou a été révoquée";
+"ax.timeout" = "Chrome n’a pas répondu à temps à la demande d’accessibilité. Réessayez.";
+"ax.invalid" = "La fenêtre s’est fermée ou a changé. Appuyez de nouveau sur le raccourci.";
+"ax.unsupported" = "Cette fenêtre ne peut pas être déplacée ni redimensionnée";
+"ax.noValue" = "Il n’y a pas de fenêtre Chrome ordinaire. Ouvrez-en une d’abord.";
+"ax.generic" = "L’action sur la fenêtre a échoué. Consultez le dernier état dans le menu.";
+"svc.noChrome" = "Google Chrome est introuvable. Installez d’abord la version officielle de Chrome.";
+"svc.openFail" = "Impossible d’ouvrir Chrome : %@";
+"svc.opened" = "L’ouverture de Chrome a été demandée. Cet appui ne change pas la disposition.";
+"svc.revealNeedsAccess" = "L’affichage de Chrome a été demandé. Le contrôle de la fenêtre exige toujours l’accessibilité.";
+"svc.noPlainWindow" = "Chrome est actif, mais il n’a pas de fenêtre ordinaire. Ouvrez-en une d’abord.";
+"svc.raiseUnconfirmed" = "Chrome a été invité à passer devant ; cela n’a pas été confirmé (AX %d).";
+"svc.revealed" = "Chrome est visible. Sa position et sa taille n’ont pas changé.";
+"svc.needAccess" = "Choisissez « Accessibilité… » dans le menu et autorisez SideSpace.";
+"svc.noDisplay" = "Impossible de lire les écrans disponibles. Réessayez.";
+"svc.unminimized" = "La fenêtre réduite a été restaurée. Cet appui ne change pas la disposition.";
+"svc.fullscreen" = "Chrome est en plein écran système. Quittez le plein écran avant d’utiliser le raccourci de disposition.";
+"svc.sheet" = "Fermez d’abord la fenêtre d’enregistrement, d’impression ou une autre boîte de dialogue de Chrome.";
+"svc.invalidPlan" = "Impossible de produire une disposition valide. Vérifiez les écrans et la marge.";
+"svc.alreadyThere" = "C’est déjà la disposition voulue. Aucun autre écran n’est disponible.";
+"svc.cancelled" = "L’app au premier plan a changé ; l’ajustement suivant de la fenêtre a été annulé.";
+"svc.displayGone" = "L’écran cible a été déconnecté. Appuyez de nouveau sur le raccourci.";
+"svc.internalDone" = "Disposition de l’écran intégré terminée. Marge gauche réelle : %.0f pt.";
+"svc.externalDone" = "L’écran externe occupe toute la zone visible.";
+"svc.sizeRejected" = "Chrome n’a pas accepté toute la taille voulue. Les nouvelles tentatives sont arrêtées. Vérifiez sa taille minimale ou le mosaïquage du système.";
+
+"menu.dockDisplay" = "Écran du Dock";
+
+"menu.dockBuiltIn" = "Écran intégré (par défaut)";
+
+"menu.dockDisconnected" = "Écran externe sélectionné déconnecté";
+
+"menu.dockSingleHint" = "Un seul écran : y appliquer la marge";
+
+"status.dockSaved" = "Écran enregistré. Appliqué au prochain raccourci.";
+
+"status.dockUnsaved" = "Appliqué pour cette session, mais non enregistré.";
+
+"svc.layoutDone" = "Disposition appliquée. Marge gauche : %.0f pt.";

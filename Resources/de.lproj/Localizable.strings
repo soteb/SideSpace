@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "Fenster anordnen";
+"menu.margin" = "Dock-Abstand";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "Eigen…";
+"menu.shortcut" = "Kurzbefehl";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    Standard";
+"menu.roleSecond" = "    Zweite Wahl";
+"menu.roleThird" = "    Dritte Wahl";
+"menu.login" = "Beim Anmelden öffnen";
+"menu.loginPending" = "Beim Anmelden öffnen (Genehmigung nötig)…";
+"menu.permission" = "Bedienungshilfen…";
+"menu.permissionOn" = "Bedienungshilfen: erlaubt…";
+"menu.permissionOff" = "Bedienungshilfen: nicht erlaubt…";
+"menu.recheck" = "Berechtigung und Kurzbefehl prüfen";
+"menu.memoryCurrent" = "Aktueller Speicher: —";
+"menu.memoryCurrentFormat" = "Aktueller Speicher: %@";
+"menu.memoryCurrentFail" = "Aktueller Speicher: nicht lesbar";
+"menu.memoryAverage" = "Durchschnitt diesmal: —";
+"menu.memoryAverageFormat" = "Durchschnitt diesmal: %@";
+"menu.memoryStartup" = "Beim Start resident: —";
+"menu.memoryStartupFormat" = "Beim Start resident: %@";
+"menu.memoryStartupFail" = "Beim Start resident: nicht lesbar";
+"menu.ready" = "Bereit";
+"menu.diagnostics" = "Status und Diagnose…";
+"menu.about" = "Über SideSpace…";
+"menu.quit" = "SideSpace beenden";
+"menu.language" = "Sprache";
+"menu.languageFollow" = "System folgen";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "Der Kurzbefehl konnte nicht registriert werden (%d). Wähle einen anderen oder gib die gleiche Belegung in einer anderen App frei.";
+"status.needPermission" = "Erlaube die Bedienungshilfen im Menü und verwende danach den Kurzbefehl.";
+"status.ready" = "Bereit";
+"status.displayChanged" = "Display oder Ruhezustand hat sich geändert. Der nächste Kurzbefehl liest das Layout neu.";
+"status.marginSaved" = "Rand gespeichert. Er gilt beim nächsten Kurzbefehl. Das aktuelle Fenster bleibt stehen.";
+"status.marginUnsaved" = "Der Rand gilt für diesen Start, die Einstellung konnte aber nicht gespeichert werden.";
+"status.shortcutSaved" = "Der Kurzbefehl ist aktiv.";
+"status.shortcutUnsaved" = "Der Kurzbefehl gilt für diesen Start, die Einstellung konnte aber nicht gespeichert werden.";
+"status.shortcutNew" = "Der neue Kurzbefehl ist aktiv.";
+"status.shortcutNewUnsaved" = "Der neue Kurzbefehl gilt für diesen Start, die Einstellung konnte aber nicht gespeichert werden.";
+"status.shortcutRestoreFail" = "Der vorherige Kurzbefehl konnte nicht wiederhergestellt werden. Lege ihn neu fest oder löse einen Konflikt in einer anderen App.";
+"status.permissionOpened" = "Erlaube SideSpace in den Systemeinstellungen und wähle dann „Berechtigung und Kurzbefehl prüfen“.";
+"status.recheckConflict" = "Der Kurzbefehl ist weiterhin nicht registriert. Prüfe eine belegte Tastenkombination.";
+"status.recheckReady" = "Berechtigung und Kurzbefehl sind bereit.";
+"status.recheckDenied" = "Die Bedienungshilfen sind weiterhin nicht erlaubt. Nach einem neuen Build muss der alte Eintrag entfernt und SideSpace erneut hinzugefügt werden.";
+"status.loginNeedsApproval" = "Der Anmeldeobjekt-Eintrag braucht eine Genehmigung. Öffne die Anmeldeobjekte in den Systemeinstellungen.";
+"status.loginUpdated" = "„Beim Anmelden öffnen“ wurde aktualisiert.";
+"status.languageSaved" = "Sprache aktualisiert.";
+"status.languageUnsaved" = "Die Sprache gilt für diesen Start, die Einstellung konnte aber nicht gespeichert werden.";
+"alert.ok" = "OK";
+"alert.save" = "Sichern";
+"alert.cancel" = "Abbrechen";
+"alert.runningTitle" = "SideSpace läuft bereits";
+"alert.runningBody" = "Eine andere SideSpace-Kopie läuft. Zwei Kopien konkurrieren um denselben Kurzbefehl.\n\nWähle „Andere beenden“, um sie zu schließen und diese Kopie zu öffnen.";
+"alert.runningReplace" = "Andere beenden";
+"alert.restore" = "Standard wiederherstellen";
+"alert.hotkeyTitle" = "Kurzbefehl konnte nicht registriert werden";
+"alert.hotkeyBody" = "Das System hat %d zurückgegeben. Wähle eine andere Kombination oder löse dieselbe Belegung in Raycast oder einer anderen App.";
+"alert.marginTitle" = "Dock-Abstand";
+"alert.marginBody" = "Gib eine ganze Zahl von 0 bis 500 ein. Die Einheit ist ein macOS-Punkt (pt).\nDer für das Dock reservierte Bereich wird nicht zusätzlich abgezogen.\nLinks auf dem gewählten Display Platz lassen. Bei nur einem Display gilt der Abstand dort. Andere Displays nutzen den sichtbaren Bereich.";
+"alert.marginBadTitle" = "Gib einen gültigen Rand ein";
+"alert.marginBadBody" = "Nur ganze Zahlen von 0 bis 500, zum Beispiel 50.";
+"alert.recordTitle" = "Globalen Kurzbefehl festlegen";
+"alert.recordBody" = "Drücke unten die neue Kombination. Während der Aufnahme pausiert der bisherige Kurzbefehl.\n„Standard wiederherstellen“ setzt ⌥⌘A. Die zweite Wahl ist ⌥A, die dritte ⌃⌥⌘→.";
+"alert.recordBadTitle" = "Dieser Kurzbefehl kann nicht verwendet werden";
+"alert.recordBadBody" = "Verwende eine Kombination mit Control, Option oder Command. Diese Taste lässt sich nicht als globaler Kurzbefehl registrieren.";
+"alert.loginTitle" = "„Beim Anmelden öffnen“ konnte nicht geändert werden";
+"alert.loginBody" = "%@\n\nInstalliere die App in einem festen Ordner „Applications“, öffne sie und versuche es erneut. Aktiviere den Start bei der Anmeldung nicht aus einem temporären Build-Ordner.";
+"alert.loginDenied" = "Das System hat die Anfrage nicht genehmigt.";
+"alert.diagnosticsTitle" = "SideSpace-Status";
+"alert.diagnosticsBody" = "Version: 1.0.0\nSystem: %@\nPfad: %@\nBedienungshilfen: %@\nKurzbefehl: %@ (Registrierung %@)\nDock-Abstand: %d pt\nBeschäftigt: %@\nLetzter Status: %@%@\n\nDiese App lädt keine Protokolle hoch. Die Diagnose enthält keine Chrome-Tabs oder Seiteninhalte.";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "Ein Menüleisten-Werkzeug, das das Fenster von Google Chrome anordnet.\nKompatibel mit Apple Silicon und macOS 26.0 oder neuer.\n\nWenn Chrome nicht vorne ist, holt der Kurzbefehl es nur nach vorne.\nLinks auf dem gewählten Display Platz lassen. Bei nur einem Display gilt der Abstand dort. Andere Displays nutzen den sichtbaren Bereich.\n\nDer Standard-Kurzbefehl ist ⌥⌘A. Du kannst ihn im Menü ändern.\nSeiteninhalte werden nicht gelesen, und es gibt keine Netzwerkverbindung.";
+"alert.welcomeTitle" = "Willkommen bei SideSpace";
+"alert.welcomeBody" = "Wähle „Erlauben“ und schalte SideSpace auf diesem Weg ein:
+
+Systemeinstellungen → Datenschutz & Sicherheit → Bedienungshilfen
+
+Wähle SideSpace in der Liste und aktiviere den Schalter daneben. Fehlt SideSpace, klicke unten links auf „+“, wähle SideSpace und aktiviere den Schalter.
+
+Die Systemeinstellungen beschreiben diese Berechtigung weit. SideSpace verwendet sie nur, um das Chrome-Fenster zu verschieben und in der Größe zu ändern. Es liest keine Seiteninhalte, zeichnet keine Tasten auf, macht keine Bildschirmfotos und nutzt kein Netzwerk. Danach ist der Standard-Kurzbefehl ⌥⌘A bereit.";
+"alert.allow" = "Erlauben";
+"alert.later" = "Später";
+"alert.authorizedDone" = "Fertig";
+"alert.welcomeGrantedTitle" = "Bedienungshilfen sind erlaubt";
+"alert.welcomeGrantedBody" = "SideSpace kann das Chrome-Fenster jetzt anordnen. Der Standard-Kurzbefehl ist ⌥⌘A.";
+"diag.allowed" = "Erlaubt";
+"diag.denied" = "Nicht erlaubt";
+"diag.registered" = "erfolgreich";
+"diag.failed" = "fehlgeschlagen";
+"diag.yes" = "Ja";
+"diag.no" = "Nein";
+"diag.errorMark" = "[Fehler] ";
+"key.space" = "Leertaste";
+"key.unknown" = "Taste %u";
+"recorder.hint" = "Klicke hier und drücke dann die neue Kombination.\nSie muss Control, Option oder Command enthalten.";
+"recorder.needMods" = "Control, Option oder Command muss enthalten sein. Nur Shift wird nicht akzeptiert.";
+"recorder.reserved" = "Das ist ein üblicher System- oder App-Kurzbefehl. Wähle eine andere Kombination.";
+"recorder.captured" = "Aufgezeichnet. Beim Sichern wird geprüft, ob das System ihn annimmt.\nKonflikte mit anderen Apps werden nicht vollständig erkannt.";
+"recorder.access" = "Kurzbefehl-Aufnahme";
+"ax.format" = "%@ (AX %d)";
+"ax.disabled" = "Bedienungshilfen sind aus oder wurden widerrufen";
+"ax.timeout" = "Chrome hat die Bedienungshilfen-Anfrage nicht rechtzeitig beantwortet. Versuche es erneut.";
+"ax.invalid" = "Das Fenster wurde geschlossen oder hat sich geändert. Drücke den Kurzbefehl erneut.";
+"ax.unsupported" = "Dieses Fenster kann nicht bewegt oder in der Größe geändert werden";
+"ax.noValue" = "Es gibt kein gewöhnliches Chrome-Fenster. Öffne zuerst eines.";
+"ax.generic" = "Die Fensteraktion ist fehlgeschlagen. Sieh im Menü nach dem letzten Status.";
+"svc.noChrome" = "Google Chrome wurde nicht gefunden. Installiere zuerst die offizielle Chrome-App.";
+"svc.openFail" = "Chrome konnte nicht geöffnet werden: %@";
+"svc.opened" = "Chrome sollte geöffnet werden. Dieser Druck ändert das Layout nicht.";
+"svc.revealNeedsAccess" = "Chrome sollte nach vorne kommen. Zum Steuern des Fensters sind weiterhin die Bedienungshilfen nötig.";
+"svc.noPlainWindow" = "Chrome ist aktiv, hat aber kein gewöhnliches Fenster. Öffne zuerst eines.";
+"svc.raiseUnconfirmed" = "Chrome sollte nach vorne kommen; das wurde nicht bestätigt (AX %d).";
+"svc.revealed" = "Chrome ist sichtbar. Position und Größe wurden nicht geändert.";
+"svc.needAccess" = "Wähle im Menü „Bedienungshilfen…“ und erlaube SideSpace.";
+"svc.noDisplay" = "Die verfügbaren Displays konnten nicht gelesen werden. Versuche es erneut.";
+"svc.unminimized" = "Das minimierte Fenster wurde wiederhergestellt. Dieser Druck ändert das Layout nicht.";
+"svc.fullscreen" = "Chrome ist im systemweiten Vollbild. Verlasse den Vollbildmodus, bevor du den Layout-Kurzbefehl verwendest.";
+"svc.sheet" = "Schließe zuerst den Dialog zum Sichern, Drucken oder einen anderen Dialog in Chrome.";
+"svc.invalidPlan" = "Es konnte kein gültiges Layout erzeugt werden. Prüfe die Displays und den Rand.";
+"svc.alreadyThere" = "Das ist bereits das Ziellayout. Es gibt kein anderes Display für einen Wechsel.";
+"svc.cancelled" = "Die vorderste App hat sich geändert, daher wurde die weitere Fensteranpassung abgebrochen.";
+"svc.displayGone" = "Das Zieldisplay wurde getrennt. Drücke den Kurzbefehl erneut.";
+"svc.internalDone" = "Layout auf dem internen Display abgeschlossen. Tatsächlicher linker Rand: %.0f pt.";
+"svc.externalDone" = "Das externe Display füllt den sichtbaren Bereich.";
+"svc.sizeRejected" = "Chrome hat die volle Zielgröße nicht angenommen. Die Wiederholungen wurden beendet. Prüfe die Mindestgröße oder die Systemkacheln.";
+
+"menu.dockDisplay" = "Dock-Display";
+
+"menu.dockBuiltIn" = "Internes Display (Standard)";
+
+"menu.dockDisconnected" = "Gewähltes externes Display nicht verbunden";
+
+"menu.dockSingleHint" = "Ein Display: Abstand dort anwenden";
+
+"status.dockSaved" = "Dock-Display gespeichert. Gilt beim nächsten Kurzbefehl.";
+
+"status.dockUnsaved" = "Gilt für diese Sitzung, konnte aber nicht gespeichert werden.";
+
+"svc.layoutDone" = "Layout angewendet. Linker Abstand: %.0f pt.";

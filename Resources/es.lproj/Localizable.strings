@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "Ordenar ventana";
+"menu.margin" = "Margen del Dock";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "Personalizar…";
+"menu.shortcut" = "Atajo";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    Predeterminado";
+"menu.roleSecond" = "    Segunda opción";
+"menu.roleThird" = "    Tercera opción";
+"menu.login" = "Abrir al iniciar sesión";
+"menu.loginPending" = "Abrir al iniciar sesión (hace falta aprobación)…";
+"menu.permission" = "Accesibilidad…";
+"menu.permissionOn" = "Accesibilidad: permitida…";
+"menu.permissionOff" = "Accesibilidad: no permitida…";
+"menu.recheck" = "Volver a comprobar permiso y atajo";
+"menu.memoryCurrent" = "Memoria actual: —";
+"menu.memoryCurrentFormat" = "Memoria actual: %@";
+"menu.memoryCurrentFail" = "Memoria actual: no disponible";
+"menu.memoryAverage" = "Promedio de esta vez: —";
+"menu.memoryAverageFormat" = "Promedio de esta vez: %@";
+"menu.memoryStartup" = "Residente al arrancar: —";
+"menu.memoryStartupFormat" = "Residente al arrancar: %@";
+"menu.memoryStartupFail" = "Residente al arrancar: no disponible";
+"menu.ready" = "Listo";
+"menu.diagnostics" = "Estado y diagnóstico…";
+"menu.about" = "Acerca de SideSpace…";
+"menu.quit" = "Salir de SideSpace";
+"menu.language" = "Idioma";
+"menu.languageFollow" = "Seguir el sistema";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "No se pudo registrar el atajo (%d). Elige otro o libera la misma combinación en otra app.";
+"status.needPermission" = "Permite Accesibilidad desde el menú y luego usa el atajo.";
+"status.ready" = "Listo";
+"status.displayChanged" = "Cambió la pantalla o el estado de reposo. La próxima pulsación del atajo vuelve a leer la disposición.";
+"status.marginSaved" = "Margen guardado. Se aplica en el próximo atajo. La ventana actual no se mueve.";
+"status.marginUnsaved" = "El margen vale para esta ejecución, pero el ajuste no se pudo guardar.";
+"status.shortcutSaved" = "El atajo está activo.";
+"status.shortcutUnsaved" = "El atajo funciona en esta ejecución, pero el ajuste no se pudo guardar.";
+"status.shortcutNew" = "El nuevo atajo está activo.";
+"status.shortcutNewUnsaved" = "El nuevo atajo funciona en esta ejecución, pero el ajuste no se pudo guardar.";
+"status.shortcutRestoreFail" = "No se pudo restaurar el atajo anterior. Vuelve a definirlo o quita un conflicto en otra app.";
+"status.permissionOpened" = "Permite SideSpace en Ajustes del Sistema y luego elige “Volver a comprobar permiso y atajo”.";
+"status.recheckConflict" = "El atajo sigue sin registrarse. Revisa si otra app lo está usando.";
+"status.recheckReady" = "El permiso y el atajo están listos.";
+"status.recheckDenied" = "Accesibilidad sigue sin estar permitida. Tras recompilar, puede hacer falta quitar la entrada antigua y volver a añadir SideSpace.";
+"status.loginNeedsApproval" = "El ítem de inicio necesita aprobación. Abre los ítems de inicio en Ajustes del Sistema.";
+"status.loginUpdated" = "Se actualizó la apertura al iniciar sesión.";
+"status.languageSaved" = "Idioma actualizado.";
+"status.languageUnsaved" = "El idioma cambió para esta ejecución, pero el ajuste no se pudo guardar.";
+"alert.ok" = "Aceptar";
+"alert.save" = "Guardar";
+"alert.cancel" = "Cancelar";
+"alert.runningTitle" = "SideSpace ya está abierto";
+"alert.runningBody" = "Hay otra copia de SideSpace abierta. Dos copias compiten por el mismo atajo.\n\nElige “Cerrar la otra” para cerrarla y abrir esta.";
+"alert.runningReplace" = "Cerrar la otra";
+"alert.restore" = "Restaurar predeterminado";
+"alert.hotkeyTitle" = "No se pudo registrar el atajo";
+"alert.hotkeyBody" = "El sistema devolvió %d. Elige otra combinación o libera la misma en Raycast u otra app.";
+"alert.marginTitle" = "Margen del Dock";
+"alert.marginBody" = "Escribe un entero de 0 a 500. La unidad es el punto de macOS (pt).\nEl espacio reservado para el Dock no se suma otra vez.\nReservar espacio a la izquierda de la pantalla elegida. Con una sola pantalla, aplicar allí el margen. Las demás usan el área visible.";
+"alert.marginBadTitle" = "Escribe un margen válido";
+"alert.marginBadBody" = "Solo se aceptan enteros de 0 a 500, por ejemplo 50.";
+"alert.recordTitle" = "Definir el atajo global";
+"alert.recordBody" = "Pulsa la nueva combinación abajo. El atajo actual se pausa mientras se graba.\n“Restaurar predeterminado” vuelve a ⌥⌘A. La segunda opción es ⌥A y la tercera es ⌃⌥⌘→.";
+"alert.recordBadTitle" = "Este atajo no se puede usar";
+"alert.recordBadBody" = "Usa una combinación que incluya Control, Opción o Comando. Esta tecla no se puede registrar como atajo global.";
+"alert.loginTitle" = "No se pudo cambiar la apertura al iniciar sesión";
+"alert.loginBody" = "%@\n\nInstala la app en una carpeta Applications permanente, ábrela e inténtalo de nuevo. No actives la apertura al iniciar sesión desde una carpeta de compilación temporal.";
+"alert.loginDenied" = "El sistema no aprobó la solicitud.";
+"alert.diagnosticsTitle" = "Estado de SideSpace";
+"alert.diagnosticsBody" = "Versión: 1.0.0\nSistema: %@\nRuta: %@\nAccesibilidad: %@\nAtajo: %@ (registro %@)\nMargen del Dock: %d pt\nOcupado: %@\nÚltimo estado: %@%@\n\nEsta app no sube registros. El diagnóstico no incluye pestañas ni el contenido de las páginas de Chrome.";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "Una herramienta de la barra de menús que ordena la ventana de Google Chrome.\nCompatible con Apple Silicon y macOS 26.0 o posterior.\n\nSi Chrome no está delante, el atajo solo lo trae al frente.\nReservar espacio a la izquierda de la pantalla elegida. Con una sola pantalla, aplicar allí el margen. Las demás usan el área visible.\n\nEl atajo predeterminado es ⌥⌘A. Puedes cambiarlo en el menú.\nNo lee el contenido de las páginas ni usa la red.";
+"alert.welcomeTitle" = "Te damos la bienvenida a SideSpace";
+"alert.welcomeBody" = "Elige “Permitir” y activa SideSpace siguiendo esta ruta:
+
+Ajustes del Sistema → Privacidad y seguridad → Accesibilidad
+
+Selecciona SideSpace en la lista y activa el interruptor de al lado. Si no aparece, pulsa “+” abajo a la izquierda, elige SideSpace y activa el interruptor.
+
+Ajustes del Sistema describe este permiso de forma amplia. SideSpace solo lo usa para mover y cambiar el tamaño de la ventana de Chrome. No lee el contenido de las páginas, no registra pulsaciones, no hace capturas y no usa la red. Con el interruptor activado, el atajo predeterminado ⌥⌘A queda listo.";
+"alert.allow" = "Permitir";
+"alert.later" = "Más tarde";
+"alert.authorizedDone" = "Listo";
+"alert.welcomeGrantedTitle" = "Accesibilidad está permitida";
+"alert.welcomeGrantedBody" = "SideSpace ya puede ordenar la ventana de Chrome. El atajo predeterminado es ⌥⌘A.";
+"diag.allowed" = "Permitida";
+"diag.denied" = "No permitida";
+"diag.registered" = "correcto";
+"diag.failed" = "fallido";
+"diag.yes" = "Sí";
+"diag.no" = "No";
+"diag.errorMark" = "[Error] ";
+"key.space" = "Espacio";
+"key.unknown" = "Tecla %u";
+"recorder.hint" = "Haz clic aquí y pulsa la nueva combinación.\nDebe incluir Control, Opción o Comando.";
+"recorder.needMods" = "Incluye Control, Opción o Comando. Solo Mayúsculas no se acepta.";
+"recorder.reserved" = "Es un atajo habitual del sistema o de una app. Elige otra combinación.";
+"recorder.captured" = "Grabado. Al guardar se comprueba si el sistema lo acepta.\nNo se pueden detectar todos los conflictos con otras apps.";
+"recorder.access" = "Área de grabación del atajo";
+"ax.format" = "%@ (AX %d)";
+"ax.disabled" = "Accesibilidad está desactivada o se revocó";
+"ax.timeout" = "Chrome no respondió a tiempo a la solicitud de Accesibilidad. Inténtalo de nuevo.";
+"ax.invalid" = "La ventana se cerró o cambió. Pulsa el atajo otra vez.";
+"ax.unsupported" = "Esta ventana no se puede mover ni cambiar de tamaño";
+"ax.noValue" = "No hay una ventana normal de Chrome. Abre una primero.";
+"ax.generic" = "La acción de la ventana falló. Mira el último estado en el menú.";
+"svc.noChrome" = "No se encontró Google Chrome. Instala primero la app oficial de Chrome.";
+"svc.openFail" = "No se pudo abrir Chrome: %@";
+"svc.opened" = "Se pidió abrir Chrome. Esta pulsación no cambia la disposición.";
+"svc.revealNeedsAccess" = "Se pidió mostrar Chrome. Controlar la ventana sigue requiriendo Accesibilidad.";
+"svc.noPlainWindow" = "Chrome está activo, pero no tiene una ventana normal. Abre una primero.";
+"svc.raiseUnconfirmed" = "Se pidió activar Chrome; no se confirmó que la ventana pasara al frente (AX %d).";
+"svc.revealed" = "Chrome está visible. No se cambiaron la posición ni el tamaño.";
+"svc.needAccess" = "Elige “Accesibilidad…” en el menú y permite SideSpace.";
+"svc.noDisplay" = "No se pudieron leer las pantallas disponibles. Inténtalo de nuevo.";
+"svc.unminimized" = "Se restauró la ventana minimizada. Esta pulsación no cambia la disposición.";
+"svc.fullscreen" = "Chrome está en pantalla completa del sistema. Sal de ella antes de usar el atajo de disposición.";
+"svc.sheet" = "Cierra primero el diálogo de guardar, imprimir u otro diálogo de Chrome.";
+"svc.invalidPlan" = "No se pudo crear una disposición válida. Revisa las pantallas y el margen.";
+"svc.alreadyThere" = "Ya es la disposición de destino. No hay otra pantalla a la que cambiar.";
+"svc.cancelled" = "Cambió la app en primer plano, así que se canceló el ajuste posterior de la ventana.";
+"svc.displayGone" = "La pantalla de destino se desconectó. Pulsa el atajo otra vez.";
+"svc.internalDone" = "Disposición de la pantalla integrada lista. Margen izquierdo real: %.0f pt.";
+"svc.externalDone" = "La pantalla externa ocupa el área visible.";
+"svc.sizeRejected" = "Chrome no aceptó el tamaño de destino completo. Se detuvieron los reintentos. Revisa su tamaño mínimo o el mosaico del sistema.";
+
+"menu.dockDisplay" = "Pantalla del Dock";
+
+"menu.dockBuiltIn" = "Pantalla integrada (predeterminada)";
+
+"menu.dockDisconnected" = "Pantalla externa seleccionada desconectada";
+
+"menu.dockSingleHint" = "Una pantalla: aplicar el margen en ella";
+
+"status.dockSaved" = "Pantalla guardada. Se aplicará con el próximo atajo.";
+
+"status.dockUnsaved" = "Se aplica en esta sesión, pero no se pudo guardar.";
+
+"svc.layoutDone" = "Distribución aplicada. Margen izquierdo: %.0f pt.";

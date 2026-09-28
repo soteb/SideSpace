@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "ウィンドウを整える";
+"menu.margin" = "Dock の余白";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "カスタム…";
+"menu.shortcut" = "ショートカット";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    標準";
+"menu.roleSecond" = "    第2候補";
+"menu.roleThird" = "    第3候補";
+"menu.login" = "ログイン時に開く";
+"menu.loginPending" = "ログイン時に開く（承認が必要）…";
+"menu.permission" = "アクセシビリティ…";
+"menu.permissionOn" = "アクセシビリティ：許可済み…";
+"menu.permissionOff" = "アクセシビリティ：未許可…";
+"menu.recheck" = "権限とショートカットを再確認";
+"menu.memoryCurrent" = "現在のメモリ：—";
+"menu.memoryCurrentFormat" = "現在のメモリ：%@";
+"menu.memoryCurrentFail" = "現在のメモリ：読み取れません";
+"menu.memoryAverage" = "今回の平均：—";
+"menu.memoryAverageFormat" = "今回の平均：%@";
+"menu.memoryStartup" = "起動時の常駐：—";
+"menu.memoryStartupFormat" = "起動時の常駐：%@";
+"menu.memoryStartupFail" = "起動時の常駐：読み取れません";
+"menu.ready" = "準備完了";
+"menu.diagnostics" = "状態と診断…";
+"menu.about" = "SideSpace について…";
+"menu.quit" = "SideSpace を終了";
+"menu.language" = "言語";
+"menu.languageFollow" = "システムに合わせる";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "ショートカットを登録できません（%d）。別の組み合わせを選ぶか、他のアプリの同じキーを解除してください。";
+"status.needPermission" = "メニューからアクセシビリティを許可してから、ショートカットを使ってください。";
+"status.ready" = "準備完了";
+"status.displayChanged" = "ディスプレイまたはスリープの状態が変わりました。次のショートカットで配置を読み直します。";
+"status.marginSaved" = "余白を保存しました。次のショートカットで適用します。今のウィンドウは動きません。";
+"status.marginUnsaved" = "余白はこの実行では有効ですが、設定を保存できませんでした。";
+"status.shortcutSaved" = "ショートカットは有効です。";
+"status.shortcutUnsaved" = "ショートカットはこの実行では有効ですが、設定を保存できませんでした。";
+"status.shortcutNew" = "新しいショートカットは有効です。";
+"status.shortcutNewUnsaved" = "新しいショートカットはこの実行では有効ですが、設定を保存できませんでした。";
+"status.shortcutRestoreFail" = "以前のショートカットを戻せません。設定し直すか、他のアプリの競合を解除してください。";
+"status.permissionOpened" = "システム設定で SideSpace を許可してから、「権限とショートカットを再確認」を選んでください。";
+"status.recheckConflict" = "ショートカットはまだ登録できません。他のアプリの割り当てを確認してください。";
+"status.recheckReady" = "権限とショートカットは準備できています。";
+"status.recheckDenied" = "アクセシビリティはまだ許可されていません。ビルドし直した場合は、古い項目を消してから追加し直してください。";
+"status.loginNeedsApproval" = "ログイン項目の承認が必要です。システム設定のログイン項目を開いてください。";
+"status.loginUpdated" = "ログイン時に開く設定を更新しました。";
+"status.languageSaved" = "言語を更新しました。";
+"status.languageUnsaved" = "言語はこの実行では切り替わりましたが、設定を保存できませんでした。";
+"alert.ok" = "OK";
+"alert.save" = "保存";
+"alert.cancel" = "キャンセル";
+"alert.runningTitle" = "SideSpace はすでに実行中です";
+"alert.runningBody" = "別の SideSpace が実行中です。2 つ同時に動かすと同じショートカットを取り合います。\n\n「古いほうを終了」を選ぶと、もう一方を終了してからこちらを開きます。";
+"alert.runningReplace" = "古いほうを終了";
+"alert.restore" = "標準に戻す";
+"alert.hotkeyTitle" = "ショートカットを登録できません";
+"alert.hotkeyBody" = "システムが %d を返しました。別の組み合わせを選ぶか、Raycast などの同じキーを解除してください。";
+"alert.marginTitle" = "Dock の余白";
+"alert.marginBody" = "0〜500 の整数を入力します。単位は macOS のポイント（pt）です。\nDock 用に確保された領域は重ねて引きません。\n選択した画面の左側に余白を確保します。画面が1台の場合はその画面に適用し、他の画面では表示可能領域を使います。";
+"alert.marginBadTitle" = "有効な余白を入力してください";
+"alert.marginBadBody" = "0〜500 の整数だけを受け付けます。例：50。";
+"alert.recordTitle" = "グローバルショートカットを設定";
+"alert.recordBody" = "下で新しい組み合わせを押します。記録中は現在のショートカットを止めます。\n「標準に戻す」で ⌥⌘A に戻ります。第2候補は ⌥A、第3候補は ⌃⌥⌘→ です。";
+"alert.recordBadTitle" = "このショートカットは使えません";
+"alert.recordBadBody" = "Control、Option、Command のいずれかを含む組み合わせにしてください。このキーはグローバルショートカットに登録できません。";
+"alert.loginTitle" = "ログイン時に開く設定を変更できません";
+"alert.loginBody" = "%@\n\nアプリを固定の Applications フォルダに入れてから開き、設定してください。一時的なビルドフォルダからログイン項目を有効にしないでください。";
+"alert.loginDenied" = "システムが要求を承認しませんでした。";
+"alert.diagnosticsTitle" = "SideSpace の状態";
+"alert.diagnosticsBody" = "バージョン：1.0.0\nシステム：%@\nパス：%@\nアクセシビリティ：%@\nショートカット：%@（登録 %@）\nDock の余白: %d pt\n処理中：%@\n最新の状態：%@%@\n\nこのアプリはログを送信しません。診断に Chrome のタブやページ内容は含まれません。";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "Google Chrome のウィンドウを整えるメニューバーツールです。\n対応：Apple Silicon、macOS 26.0 以降。\n\nChrome が前面にないときは、ショートカットは表示するだけです。\n選択した画面の左側に余白を確保します。画面が1台の場合はその画面に適用し、他の画面では表示可能領域を使います。\n\n標準のショートカットは ⌥⌘A です。メニューで変更できます。\nページ内容は読まず、ネットワークも使いません。";
+"alert.welcomeTitle" = "SideSpace へようこそ";
+"alert.welcomeBody" = "「許可する」を押し、次の順に開いて SideSpace をオンにしてください。
+
+【システム設定】→【プライバシーとセキュリティ】→【アクセシビリティ】
+
+一覧で SideSpace を選び、右のスイッチをオンにします。一覧にない場合は左下の「+」から SideSpace を追加して、スイッチをオンにしてください。
+
+システム設定では、この権限の説明が広く書かれています。SideSpaceが使うのは Chrome ウィンドウの位置とサイズの変更だけです。ページ内容の読み取り、キー入力の記録、スクリーンショット、ネットワーク通信は行いません。オンにすると、標準のショートカット ⌥⌘A が使えます。";
+"alert.allow" = "許可する";
+"alert.later" = "あとで";
+"alert.authorizedDone" = "許可完了";
+"alert.welcomeGrantedTitle" = "アクセシビリティを許可しました";
+"alert.welcomeGrantedBody" = "Chrome のウィンドウを整えられます。標準のショートカットは ⌥⌘A です。";
+"diag.allowed" = "許可済み";
+"diag.denied" = "未許可";
+"diag.registered" = "成功";
+"diag.failed" = "失敗";
+"diag.yes" = "はい";
+"diag.no" = "いいえ";
+"diag.errorMark" = "[エラー] ";
+"key.space" = "スペース";
+"key.unknown" = "キー %u";
+"recorder.hint" = "ここをクリックして、新しい組み合わせを押してください。\nControl、Option、Command のいずれかを含めてください。";
+"recorder.needMods" = "Control、Option、Command のいずれかを含めてください。Shift だけでは受け付けません。";
+"recorder.reserved" = "これはよく使うシステムまたはアプリのショートカットです。別の組み合わせを選んでください。";
+"recorder.captured" = "記録しました。保存時にシステムが受け付けるか確認します。\n他のアプリとの競合をすべて検出できるわけではありません。";
+"recorder.access" = "ショートカット記録";
+"ax.format" = "%@（AX %d）";
+"ax.disabled" = "アクセシビリティがオフか、取り消されています";
+"ax.timeout" = "Chrome がアクセシビリティ要求に時間内に応答しませんでした。もう一度試してください。";
+"ax.invalid" = "ウィンドウが閉じたか、変わっています。ショートカットをもう一度押してください。";
+"ax.unsupported" = "このウィンドウは移動またはサイズ変更できません";
+"ax.noValue" = "操作できる通常の Chrome ウィンドウがありません。先にウィンドウを開いてください。";
+"ax.generic" = "ウィンドウ操作に失敗しました。メニューの最新状態を確認してください。";
+"svc.noChrome" = "Google Chrome が見つかりません。正式版の Chrome を先にインストールしてください。";
+"svc.openFail" = "Chrome を開けません：%@";
+"svc.opened" = "Chrome を開くよう要求しました。この操作ではウィンドウ配置を変えません。";
+"svc.revealNeedsAccess" = "Chrome を前面にするよう要求しました。ウィンドウの制御には引き続きアクセシビリティが必要です。";
+"svc.noPlainWindow" = "Chrome は起動していますが、通常のウィンドウがありません。先に開いてください。";
+"svc.raiseUnconfirmed" = "Chrome を前面にするよう要求しましたが、確認できませんでした（AX %d）。";
+"svc.revealed" = "Chrome を表示しました。位置とサイズは変えていません。";
+"svc.needAccess" = "メニューの「アクセシビリティ…」から SideSpace を許可してください。";
+"svc.noDisplay" = "使えるディスプレイを読み取れません。もう一度試してください。";
+"svc.unminimized" = "最小化したウィンドウを戻しました。この操作では配置を変えません。";
+"svc.fullscreen" = "Chrome はシステムのフルスクリーン中です。配置ショートカットの前に解除してください。";
+"svc.sheet" = "Chrome の保存、プリント、その他のダイアログを先に閉じてください。";
+"svc.invalidPlan" = "有効な配置を作れません。ディスプレイと余白を確認してください。";
+"svc.alreadyThere" = "すでに目標の配置です。切り替えられる別のディスプレイがありません。";
+"svc.cancelled" = "前面のアプリが変わったため、その後のウィンドウ調整を取り消しました。";
+"svc.displayGone" = "対象のディスプレイが外れました。ショートカットをもう一度押してください。";
+"svc.internalDone" = "内蔵ディスプレイの配置が完了しました。実際の左余白は %.0f pt です。";
+"svc.externalDone" = "外部ディスプレイを表示領域いっぱいにしました。";
+"svc.sizeRejected" = "Chrome が目標のサイズをすべて受け付けませんでした。再試行を止めました。最小サイズかシステムのタイル表示を確認してください。";
+
+"menu.dockDisplay" = "Dock のディスプレイ";
+
+"menu.dockBuiltIn" = "内蔵ディスプレイ（標準）";
+
+"menu.dockDisconnected" = "選択した外部ディスプレイは未接続";
+
+"menu.dockSingleHint" = "1台の場合はその画面に余白を適用";
+
+"status.dockSaved" = "保存しました。次のショートカットで適用します。";
+
+"status.dockUnsaved" = "今回は適用されますが、保存できませんでした。";
+
+"svc.layoutDone" = "配置完了。実際の左余白：%.0f pt。";

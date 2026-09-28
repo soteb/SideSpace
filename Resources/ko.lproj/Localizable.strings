@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "창 정리";
+"menu.margin" = "Dock 여백";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "사용자 설정…";
+"menu.shortcut" = "단축키";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    기본";
+"menu.roleSecond" = "    두 번째";
+"menu.roleThird" = "    세 번째";
+"menu.login" = "로그인 시 실행";
+"menu.loginPending" = "로그인 시 실행(승인 필요)…";
+"menu.permission" = "손쉬운 사용…";
+"menu.permissionOn" = "손쉬운 사용: 허용됨…";
+"menu.permissionOff" = "손쉬운 사용: 허용 안 됨…";
+"menu.recheck" = "권한과 단축키 다시 확인";
+"menu.memoryCurrent" = "현재 메모리: —";
+"menu.memoryCurrentFormat" = "현재 메모리: %@";
+"menu.memoryCurrentFail" = "현재 메모리: 읽을 수 없음";
+"menu.memoryAverage" = "이번 평균: —";
+"menu.memoryAverageFormat" = "이번 평균: %@";
+"menu.memoryStartup" = "실행 시 상주: —";
+"menu.memoryStartupFormat" = "실행 시 상주: %@";
+"menu.memoryStartupFail" = "실행 시 상주: 읽을 수 없음";
+"menu.ready" = "준비됨";
+"menu.diagnostics" = "상태 및 진단…";
+"menu.about" = "SideSpace 정보…";
+"menu.quit" = "SideSpace 종료";
+"menu.language" = "언어";
+"menu.languageFollow" = "시스템 설정 따르기";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "단축키를 등록하지 못했습니다(%d). 다른 조합을 고르거나 다른 앱의 같은 키를 해제하세요.";
+"status.needPermission" = "메뉴에서 손쉬운 사용을 허용한 다음 단축키를 사용하세요.";
+"status.ready" = "준비됨";
+"status.displayChanged" = "디스플레이 또는 잠자기 상태가 바뀌었습니다. 다음 단축키에서 배치를 다시 읽습니다.";
+"status.marginSaved" = "여백을 저장했습니다. 다음 단축키에 적용됩니다. 현재 창은 움직이지 않습니다.";
+"status.marginUnsaved" = "여백은 이번 실행에만 적용되었고, 설정은 저장되지 않았습니다.";
+"status.shortcutSaved" = "단축키가 적용되었습니다.";
+"status.shortcutUnsaved" = "단축키는 이번 실행에 적용되었지만 설정은 저장되지 않았습니다.";
+"status.shortcutNew" = "새 단축키가 적용되었습니다.";
+"status.shortcutNewUnsaved" = "새 단축키는 이번 실행에 적용되었지만 설정은 저장되지 않았습니다.";
+"status.shortcutRestoreFail" = "이전 단축키를 되돌리지 못했습니다. 다시 설정하거나 다른 앱의 충돌을 해제하세요.";
+"status.permissionOpened" = "시스템 설정에서 SideSpace를 허용한 다음 “권한과 단축키 다시 확인”을 선택하세요.";
+"status.recheckConflict" = "단축키를 아직 등록할 수 없습니다. 다른 앱의 키 설정을 확인하세요.";
+"status.recheckReady" = "권한과 단축키가 준비되었습니다.";
+"status.recheckDenied" = "손쉬운 사용이 아직 허용되지 않았습니다. 다시 빌드한 뒤에는 이전 항목을 지우고 다시 추가해야 할 수 있습니다.";
+"status.loginNeedsApproval" = "로그인 항목 승인이 필요합니다. 시스템 설정의 로그인 항목을 여세요.";
+"status.loginUpdated" = "로그인 시 실행 설정을 업데이트했습니다.";
+"status.languageSaved" = "언어를 업데이트했습니다.";
+"status.languageUnsaved" = "언어는 이번 실행에서 바뀌었지만 설정은 저장되지 않았습니다.";
+"alert.ok" = "확인";
+"alert.save" = "저장";
+"alert.cancel" = "취소";
+"alert.runningTitle" = "SideSpace가 이미 실행 중입니다";
+"alert.runningBody" = "다른 SideSpace가 실행 중입니다. 두 개를 함께 실행하면 같은 단축키를 두고 충돌합니다.\n\n“이전 것 종료”를 선택하면 다른 SideSpace를 종료한 뒤 이 SideSpace를 엽니다.";
+"alert.runningReplace" = "이전 것 종료";
+"alert.restore" = "기본값으로";
+"alert.hotkeyTitle" = "단축키를 등록할 수 없음";
+"alert.hotkeyBody" = "시스템에서 %d을(를) 반환했습니다. 다른 조합을 고르거나 Raycast 등에서 같은 키를 해제하세요.";
+"alert.marginTitle" = "Dock 여백";
+"alert.marginBody" = "0–500의 정수를 입력하세요. 단위는 macOS 포인트(pt)입니다.\nDock에 남겨 둔 공간은 다시 더하지 않습니다.\n선택한 화면 왼쪽에 여백을 둡니다. 화면이 하나면 해당 화면에 적용하고 다른 화면은 사용 가능한 영역을 채웁니다.";
+"alert.marginBadTitle" = "올바른 여백을 입력하세요";
+"alert.marginBadBody" = "0–500의 정수만 사용할 수 있습니다. 예: 50.";
+"alert.recordTitle" = "전역 단축키 설정";
+"alert.recordBody" = "아래에서 새 조합을 누르세요. 기록하는 동안 기존 단축키는 멈춥니다.\n“기본값으로”를 누르면 ⌥⌘A로 돌아갑니다. 두 번째는 ⌥A, 세 번째는 ⌃⌥⌘→입니다.";
+"alert.recordBadTitle" = "이 단축키는 사용할 수 없습니다";
+"alert.recordBadBody" = "Control, Option 또는 Command가 포함된 조합을 사용하세요. 이 키는 전역 단축키로 등록할 수 없습니다.";
+"alert.loginTitle" = "로그인 시 실행을 바꿀 수 없음";
+"alert.loginBody" = "%@\n\n앱을 고정된 Applications 폴더에 설치한 다음 열고 설정하세요. 임시 빌드 폴더에서 로그인 시 실행을 켜지 마세요.";
+"alert.loginDenied" = "시스템에서 요청을 승인하지 않았습니다.";
+"alert.diagnosticsTitle" = "SideSpace 상태";
+"alert.diagnosticsBody" = "버전: 1.0.0\n시스템: %@\n경로: %@\n손쉬운 사용: %@\n단축키: %@ (등록 %@)\nDock 여백: %d pt\n작업 중: %@\n최근 상태: %@%@\n\n이 앱은 로그를 올리지 않습니다. 진단에는 Chrome 탭이나 페이지 내용이 포함되지 않습니다.";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "Google Chrome 창을 정리하는 메뉴 막대 도구입니다.\n호환: Apple Silicon, macOS 26.0 이상.\n\nChrome이 앞에 없으면 단축키는 앞으로 가져오기만 합니다.\n선택한 화면 왼쪽에 여백을 둡니다. 화면이 하나면 해당 화면에 적용하고 다른 화면은 사용 가능한 영역을 채웁니다.\n\n기본 단축키는 ⌥⌘A이며 메뉴에서 바꿀 수 있습니다.\n페이지 내용을 읽지 않고 네트워크도 사용하지 않습니다.";
+"alert.welcomeTitle" = "SideSpace에 오신 것을 환영합니다";
+"alert.welcomeBody" = "“허용하러 가기”를 누른 뒤 다음 경로에서 SideSpace를 켜세요.
+
+【시스템 설정】→【개인정보 보호 및 보안】→【손쉬운 사용】
+
+목록에서 SideSpace를 선택하고 오른쪽 스위치를 켭니다. 목록에 없으면 왼쪽 아래 “+”로 SideSpace를 추가한 다음 스위치를 켜세요.
+
+시스템 설정에서 이 권한의 설명은 넓게 적혀 있습니다. SideSpace는 Chrome 창의 위치와 크기만 조정합니다. 페이지 내용을 읽거나, 키 입력을 기록하거나, 화면을 캡처하거나, 네트워크를 사용하지 않습니다. 스위치를 켜면 기본 단축키 ⌥⌘A를 사용할 수 있습니다.";
+"alert.allow" = "허용하러 가기";
+"alert.later" = "나중에";
+"alert.authorizedDone" = "허용 완료";
+"alert.welcomeGrantedTitle" = "손쉬운 사용이 허용되었습니다";
+"alert.welcomeGrantedBody" = "이제 Chrome 창을 정리할 수 있습니다. 기본 단축키는 ⌥⌘A입니다.";
+"diag.allowed" = "허용됨";
+"diag.denied" = "허용 안 됨";
+"diag.registered" = "성공";
+"diag.failed" = "실패";
+"diag.yes" = "예";
+"diag.no" = "아니요";
+"diag.errorMark" = "[오류] ";
+"key.space" = "스페이스";
+"key.unknown" = "키 %u";
+"recorder.hint" = "여기를 클릭한 다음 새 조합을 누르세요.\nControl, Option 또는 Command를 포함해야 합니다.";
+"recorder.needMods" = "Control, Option 또는 Command를 포함해야 합니다. Shift만 있는 조합은 사용할 수 없습니다.";
+"recorder.reserved" = "흔한 시스템 또는 앱 단축키입니다. 다른 조합을 고르세요.";
+"recorder.captured" = "기록했습니다. 저장할 때 시스템 등록 결과를 확인합니다.\n다른 앱의 단축키 충돌을 모두 찾지는 못합니다.";
+"recorder.access" = "단축키 기록 영역";
+"ax.format" = "%@(AX %d)";
+"ax.disabled" = "손쉬운 사용이 꺼져 있거나 취소되었습니다";
+"ax.timeout" = "Chrome이 손쉬운 사용 요청에 제때 응답하지 않았습니다. 다시 시도하세요.";
+"ax.invalid" = "창이 닫혔거나 바뀌었습니다. 단축키를 다시 누르세요.";
+"ax.unsupported" = "이 창은 이동하거나 크기를 바꿀 수 없습니다";
+"ax.noValue" = "다룰 수 있는 일반 Chrome 창이 없습니다. 먼저 창을 여세요.";
+"ax.generic" = "창 작업에 실패했습니다. 메뉴의 최근 상태를 확인하세요.";
+"svc.noChrome" = "Google Chrome을 찾지 못했습니다. 정식 Chrome을 먼저 설치하세요.";
+"svc.openFail" = "Chrome을 열 수 없습니다: %@";
+"svc.opened" = "Chrome을 열도록 요청했습니다. 이번에는 창 배치를 바꾸지 않습니다.";
+"svc.revealNeedsAccess" = "Chrome을 앞으로 가져오도록 요청했습니다. 창을 제어하려면 여전히 손쉬운 사용이 필요합니다.";
+"svc.noPlainWindow" = "Chrome은 실행 중이지만 일반 창이 없습니다. 먼저 창을 여세요.";
+"svc.raiseUnconfirmed" = "Chrome을 앞으로 가져오도록 요청했지만 확인되지 않았습니다(AX %d).";
+"svc.revealed" = "Chrome을 표시했습니다. 위치와 크기는 바꾸지 않았습니다.";
+"svc.needAccess" = "메뉴의 “손쉬운 사용…”에서 SideSpace를 허용하세요.";
+"svc.noDisplay" = "사용 가능한 디스플레이를 읽지 못했습니다. 다시 시도하세요.";
+"svc.unminimized" = "최소화된 창을 복원했습니다. 이번에는 배치를 바꾸지 않습니다.";
+"svc.fullscreen" = "Chrome이 시스템 전체 화면입니다. 배치 단축키를 쓰기 전에 전체 화면을 끝내세요.";
+"svc.sheet" = "Chrome의 저장, 인쇄 또는 다른 대화상자를 먼저 닫으세요.";
+"svc.invalidPlan" = "올바른 배치를 만들 수 없습니다. 디스플레이와 여백을 확인하세요.";
+"svc.alreadyThere" = "이미 목표 배치입니다. 전환할 다른 디스플레이가 없습니다.";
+"svc.cancelled" = "앞의 앱이 바뀌어 이후 창 조정을 취소했습니다.";
+"svc.displayGone" = "대상 디스플레이 연결이 끊겼습니다. 단축키를 다시 누르세요.";
+"svc.internalDone" = "내장 디스플레이 배치가 끝났습니다. 실제 왼쪽 여백은 %.0f pt입니다.";
+"svc.externalDone" = "외부 디스플레이를 보이는 영역까지 채웠습니다.";
+"svc.sizeRejected" = "Chrome이 목표 크기를 모두 받아들이지 않았습니다. 다시 시도를 멈췄습니다. 최소 크기나 시스템 타일링을 확인하세요.";
+
+"menu.dockDisplay" = "Dock 디스플레이";
+
+"menu.dockBuiltIn" = "내장 디스플레이 (기본)";
+
+"menu.dockDisconnected" = "선택한 외장 디스플레이 연결 안 됨";
+
+"menu.dockSingleHint" = "화면이 하나면 해당 화면에 여백 적용";
+
+"status.dockSaved" = "저장했습니다. 다음 단축키 실행 시 적용됩니다.";
+
+"status.dockUnsaved" = "이번 실행에는 적용되지만 저장하지 못했습니다.";
+
+"svc.layoutDone" = "배치 완료. 실제 왼쪽 여백: %.0f pt.";

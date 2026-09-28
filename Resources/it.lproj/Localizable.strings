@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "Sistema la finestra";
+"menu.margin" = "Margine del Dock";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "Personalizza…";
+"menu.shortcut" = "Abbreviazione";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    Predefinita";
+"menu.roleSecond" = "    Seconda scelta";
+"menu.roleThird" = "    Terza scelta";
+"menu.login" = "Apri all’accesso";
+"menu.loginPending" = "Apri all’accesso (serve l’approvazione)…";
+"menu.permission" = "Accessibilità…";
+"menu.permissionOn" = "Accessibilità: consentita…";
+"menu.permissionOff" = "Accessibilità: non consentita…";
+"menu.recheck" = "Ricontrolla permesso e abbreviazione";
+"menu.memoryCurrent" = "Memoria attuale: —";
+"menu.memoryCurrentFormat" = "Memoria attuale: %@";
+"menu.memoryCurrentFail" = "Memoria attuale: non disponibile";
+"menu.memoryAverage" = "Media di questa volta: —";
+"menu.memoryAverageFormat" = "Media di questa volta: %@";
+"menu.memoryStartup" = "Residente all’avvio: —";
+"menu.memoryStartupFormat" = "Residente all’avvio: %@";
+"menu.memoryStartupFail" = "Residente all’avvio: non disponibile";
+"menu.ready" = "Pronto";
+"menu.diagnostics" = "Stato e diagnostica…";
+"menu.about" = "Informazioni su SideSpace…";
+"menu.quit" = "Esci da SideSpace";
+"menu.language" = "Lingua";
+"menu.languageFollow" = "Segui il sistema";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "Impossibile registrare l’abbreviazione (%d). Scegline un’altra o libera la stessa combinazione in un’altra app.";
+"status.needPermission" = "Consenti Accessibilità dal menu, poi usa l’abbreviazione.";
+"status.ready" = "Pronto";
+"status.displayChanged" = "Lo schermo o lo stato di stop è cambiato. La prossima abbreviazione legge di nuovo la disposizione.";
+"status.marginSaved" = "Margine salvato. Si applica alla prossima abbreviazione. La finestra attuale resta dov’è.";
+"status.marginUnsaved" = "Il margine vale per questa esecuzione, ma l’impostazione non è stata salvata.";
+"status.shortcutSaved" = "L’abbreviazione è attiva.";
+"status.shortcutUnsaved" = "L’abbreviazione funziona per questa esecuzione, ma l’impostazione non è stata salvata.";
+"status.shortcutNew" = "La nuova abbreviazione è attiva.";
+"status.shortcutNewUnsaved" = "La nuova abbreviazione funziona per questa esecuzione, ma l’impostazione non è stata salvata.";
+"status.shortcutRestoreFail" = "Impossibile ripristinare l’abbreviazione precedente. Impostala di nuovo o elimina un conflitto in un’altra app.";
+"status.permissionOpened" = "Consenti SideSpace in Impostazioni di Sistema, poi scegli “Ricontrolla permesso e abbreviazione”.";
+"status.recheckConflict" = "L’abbreviazione non è ancora registrata. Controlla se un’altra app la usa.";
+"status.recheckReady" = "Permesso e abbreviazione sono pronti.";
+"status.recheckDenied" = "Accessibilità non è ancora consentita. Dopo una nuova compilazione, potrebbe essere necessario rimuovere la voce precedente e aggiungere di nuovo SideSpace.";
+"status.loginNeedsApproval" = "L’elemento di avvio richiede l’approvazione. Apri gli elementi di avvio in Impostazioni di Sistema.";
+"status.loginUpdated" = "L’apertura all’accesso è stata aggiornata.";
+"status.languageSaved" = "Lingua aggiornata.";
+"status.languageUnsaved" = "La lingua è cambiata per questa esecuzione, ma l’impostazione non è stata salvata.";
+"alert.ok" = "OK";
+"alert.save" = "Salva";
+"alert.cancel" = "Annulla";
+"alert.runningTitle" = "SideSpace è già aperto";
+"alert.runningBody" = "È aperta un’altra copia di SideSpace. Due copie si contendono la stessa abbreviazione.\n\nScegli “Chiudi l’altra” per chiuderla e aprire questa.";
+"alert.runningReplace" = "Chiudi l’altra";
+"alert.restore" = "Ripristina predefinita";
+"alert.hotkeyTitle" = "Impossibile registrare l’abbreviazione";
+"alert.hotkeyBody" = "Il sistema ha restituito %d. Scegli un’altra combinazione o libera la stessa in Raycast o in un’altra app.";
+"alert.marginTitle" = "Margine del Dock";
+"alert.marginBody" = "Inserisci un intero da 0 a 500. L’unità è il punto di macOS (pt).\nLo spazio riservato al Dock non viene aggiunto una seconda volta.\nRiservare spazio a sinistra dello schermo scelto. Con un solo schermo, applicare lì il margine. Gli altri usano l’area visibile.";
+"alert.marginBadTitle" = "Inserisci un margine valido";
+"alert.marginBadBody" = "Sono accettati solo interi da 0 a 500, per esempio 50.";
+"alert.recordTitle" = "Imposta l’abbreviazione globale";
+"alert.recordBody" = "Premi la nuova combinazione qui sotto. L’abbreviazione attuale è in pausa durante la registrazione.\n“Ripristina predefinita” torna a ⌥⌘A. La seconda scelta è ⌥A, la terza è ⌃⌥⌘→.";
+"alert.recordBadTitle" = "Questa abbreviazione non si può usare";
+"alert.recordBadBody" = "Usa una combinazione che include Control, Option o Command. Questo tasto non può essere registrato come abbreviazione globale.";
+"alert.loginTitle" = "Impossibile modificare l’apertura all’accesso";
+"alert.loginBody" = "%@\n\nInstalla l’app in una cartella Applications permanente, poi aprila e riprova. Non attivare l’apertura all’accesso da una cartella di compilazione temporanea.";
+"alert.loginDenied" = "Il sistema non ha approvato la richiesta.";
+"alert.diagnosticsTitle" = "Stato di SideSpace";
+"alert.diagnosticsBody" = "Versione: 1.0.0\nSistema: %@\nPercorso: %@\nAccessibilità: %@\nAbbreviazione: %@ (registrazione %@)\nMargine del Dock: %d pt\nOccupato: %@\nUltimo stato: %@%@\n\nQuesta app non carica registri. La diagnostica non include i pannelli di Chrome né il contenuto delle pagine.";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "Uno strumento della barra dei menu che sistema la finestra di Google Chrome.\nCompatibile con Apple Silicon e macOS 26.0 o versioni successive.\n\nSe Chrome non è in primo piano, l’abbreviazione si limita a portarlo avanti.\nRiservare spazio a sinistra dello schermo scelto. Con un solo schermo, applicare lì il margine. Gli altri usano l’area visibile.\n\nL’abbreviazione predefinita è ⌥⌘A. Puoi cambiarla nel menu.\nNon legge il contenuto delle pagine e non usa la rete.";
+"alert.welcomeTitle" = "Ti diamo il benvenuto in SideSpace";
+"alert.welcomeBody" = "Scegli “Consenti” e attiva SideSpace seguendo questo percorso:
+
+Impostazioni di Sistema → Privacy e sicurezza → Accessibilità
+
+Seleziona SideSpace nell’elenco e attiva l’interruttore accanto. Se non compare, fai clic su “+” in basso a sinistra, scegli SideSpace e attiva l’interruttore.
+
+Impostazioni di Sistema descrive questo permesso in modo ampio. SideSpace lo usa solo per spostare e ridimensionare la finestra di Chrome. Non legge il contenuto delle pagine, non registra i tasti, non fa schermate e non usa la rete. Con l’interruttore attivo, l’abbreviazione predefinita ⌥⌘A è pronta.";
+"alert.allow" = "Consenti";
+"alert.later" = "Più tardi";
+"alert.authorizedDone" = "Fatto";
+"alert.welcomeGrantedTitle" = "Accessibilità è consentita";
+"alert.welcomeGrantedBody" = "SideSpace ora può sistemare la finestra di Chrome. L’abbreviazione predefinita è ⌥⌘A.";
+"diag.allowed" = "Consentita";
+"diag.denied" = "Non consentita";
+"diag.registered" = "riuscita";
+"diag.failed" = "non riuscita";
+"diag.yes" = "Sì";
+"diag.no" = "No";
+"diag.errorMark" = "[Errore] ";
+"key.space" = "Spazio";
+"key.unknown" = "Tasto %u";
+"recorder.hint" = "Fai clic qui, poi premi la nuova combinazione.\nDeve includere Control, Option o Command.";
+"recorder.needMods" = "Includi Control, Option o Command. Solo Maiusc non è accettato.";
+"recorder.reserved" = "È un’abbreviazione comune del sistema o di un’app. Scegline un’altra.";
+"recorder.captured" = "Registrata. Al salvataggio si controlla se il sistema la accetta.\nNon è possibile rilevare tutti i conflitti con altre app.";
+"recorder.access" = "Area di registrazione dell’abbreviazione";
+"ax.format" = "%@ (AX %d)";
+"ax.disabled" = "Accessibilità è disattivata o è stata revocata";
+"ax.timeout" = "Chrome non ha risposto in tempo alla richiesta di Accessibilità. Riprova.";
+"ax.invalid" = "La finestra si è chiusa o è cambiata. Premi di nuovo l’abbreviazione.";
+"ax.unsupported" = "Questa finestra non può essere spostata o ridimensionata";
+"ax.noValue" = "Non c’è una finestra normale di Chrome. Aprine una prima.";
+"ax.generic" = "L’azione sulla finestra non è riuscita. Guarda l’ultimo stato nel menu.";
+"svc.noChrome" = "Google Chrome non è stato trovato. Installa prima l’app ufficiale di Chrome.";
+"svc.openFail" = "Impossibile aprire Chrome: %@";
+"svc.opened" = "È stato chiesto di aprire Chrome. Questa pressione non cambia la disposizione.";
+"svc.revealNeedsAccess" = "È stato chiesto di mostrare Chrome. Controllare la finestra richiede ancora Accessibilità.";
+"svc.noPlainWindow" = "Chrome è attivo, ma non ha una finestra normale. Aprine una prima.";
+"svc.raiseUnconfirmed" = "È stato chiesto di portare Chrome in primo piano; non è stato confermato (AX %d).";
+"svc.revealed" = "Chrome è visibile. Posizione e dimensioni non sono cambiate.";
+"svc.needAccess" = "Scegli “Accessibilità…” nel menu e consenti SideSpace.";
+"svc.noDisplay" = "Impossibile leggere gli schermi disponibili. Riprova.";
+"svc.unminimized" = "La finestra ridotta a icona è stata ripristinata. Questa pressione non cambia la disposizione.";
+"svc.fullscreen" = "Chrome è a tutto schermo di sistema. Esci da quello stato prima di usare l’abbreviazione di disposizione.";
+"svc.sheet" = "Chiudi prima la finestra di salvataggio, stampa o un’altra finestra di Chrome.";
+"svc.invalidPlan" = "Impossibile creare una disposizione valida. Controlla gli schermi e il margine.";
+"svc.alreadyThere" = "È già la disposizione di destinazione. Non c’è un altro schermo a cui passare.";
+"svc.cancelled" = "L’app in primo piano è cambiata, quindi la modifica successiva della finestra è stata annullata.";
+"svc.displayGone" = "Lo schermo di destinazione si è scollegato. Premi di nuovo l’abbreviazione.";
+"svc.internalDone" = "Disposizione dello schermo integrato completata. Margine sinistro effettivo: %.0f pt.";
+"svc.externalDone" = "Lo schermo esterno riempie l’area visibile.";
+"svc.sizeRejected" = "Chrome non ha accettato l’intera dimensione di destinazione. I nuovi tentativi sono stati interrotti. Controlla la dimensione minima o la disposizione a riquadri del sistema.";
+
+"menu.dockDisplay" = "Schermo del Dock";
+
+"menu.dockBuiltIn" = "Schermo integrato (predefinito)";
+
+"menu.dockDisconnected" = "Schermo esterno selezionato scollegato";
+
+"menu.dockSingleHint" = "Un solo schermo: applicare lì il margine";
+
+"status.dockSaved" = "Schermo salvato. Si applica alla prossima scorciatoia.";
+
+"status.dockUnsaved" = "Applicato per questa sessione, ma non salvato.";
+
+"svc.layoutDone" = "Disposizione applicata. Margine sinistro: %.0f pt.";

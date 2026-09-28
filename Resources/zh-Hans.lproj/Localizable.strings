@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "整理窗口";
+"menu.margin" = "Dock 边距";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "自定义…";
+"menu.shortcut" = "快捷键";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    默认";
+"menu.roleSecond" = "    第二候选";
+"menu.roleThird" = "    第三候选";
+"menu.login" = "登录时启动";
+"menu.loginPending" = "登录时启动（待系统批准）…";
+"menu.permission" = "辅助功能权限…";
+"menu.permissionOn" = "辅助功能权限：已授权…";
+"menu.permissionOff" = "辅助功能权限：未授权…";
+"menu.recheck" = "重新检查权限与快捷键";
+"menu.memoryCurrent" = "当前内存：—";
+"menu.memoryCurrentFormat" = "当前内存：%@";
+"menu.memoryCurrentFail" = "当前内存：无法读取";
+"menu.memoryAverage" = "本次平均：—";
+"menu.memoryAverageFormat" = "本次平均：%@";
+"menu.memoryStartup" = "后台常驻：—";
+"menu.memoryStartupFormat" = "后台常驻：%@";
+"menu.memoryStartupFail" = "后台常驻：无法读取";
+"menu.ready" = "已就绪";
+"menu.diagnostics" = "查看状态与诊断…";
+"menu.about" = "关于 SideSpace…";
+"menu.quit" = "退出 SideSpace";
+"menu.language" = "语言";
+"menu.languageFollow" = "跟随系统";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "快捷键注册失败（%d）。请改用菜单中的另一组，或解除其他应用里的相同绑定。";
+"status.needPermission" = "请从菜单授予辅助功能权限，然后使用快捷键。";
+"status.ready" = "已就绪";
+"status.displayChanged" = "显示器或睡眠状态发生变化；下次快捷键会重新获取布局。";
+"status.marginSaved" = "边距已保存，下次快捷键时应用；当前窗口不移动。";
+"status.marginUnsaved" = "边距已在本次运行生效，但写入配置失败。";
+"status.shortcutSaved" = "快捷键已生效。";
+"status.shortcutUnsaved" = "快捷键本次已生效，但配置保存失败。";
+"status.shortcutNew" = "新快捷键已生效。";
+"status.shortcutNewUnsaved" = "新快捷键本次已生效，但配置保存失败。";
+"status.shortcutRestoreFail" = "无法恢复原快捷键，请重新设置或解除其他应用中的冲突。";
+"status.permissionOpened" = "在系统设置中允许 SideSpace；然后点“重新检查权限与快捷键”。";
+"status.recheckConflict" = "快捷键仍无法注册，请检查其他应用的绑定。";
+"status.recheckReady" = "权限与快捷键均已就绪。";
+"status.recheckDenied" = "仍未获得辅助功能权限；重新编译后可能需要移除旧授权再添加。";
+"status.loginNeedsApproval" = "登录启动需要批准，请前往系统设置的登录项。";
+"status.loginUpdated" = "登录启动设置已更新。";
+"status.languageSaved" = "语言已更新。";
+"status.languageUnsaved" = "语言已在本次运行切换，但配置保存失败。";
+"alert.ok" = "好";
+"alert.save" = "保存";
+"alert.cancel" = "取消";
+"alert.runningTitle" = "SideSpace 已在运行";
+"alert.runningBody" = "已经有另一份 SideSpace 在运行。两份同时运行会抢同一个快捷键。\n\n选择「关闭旧的并继续」，会先退出另一份，再打开这一份。";
+"alert.runningReplace" = "关闭旧的并继续";
+"alert.restore" = "恢复默认";
+"alert.hotkeyTitle" = "无法注册快捷键";
+"alert.hotkeyBody" = "系统返回 %d。请改用另一组，或解除 Raycast 等应用中的相同绑定。";
+"alert.marginTitle" = "Dock 边距";
+"alert.marginBody" = "输入 0–500 的整数，单位为 macOS 逻辑点（pt）。\n系统为 Dock 保留的空间不会重复叠加。\n在选中屏幕左侧预留空间；只有一块屏幕时在该屏幕预留。其他屏幕使用系统可用区域。";
+"alert.marginBadTitle" = "请输入有效边距";
+"alert.marginBadBody" = "只接受 0–500 的整数，例如 50。";
+"alert.recordTitle" = "设置全局快捷键";
+"alert.recordBody" = "在下方按新组合键。录制期间原快捷键暂停。\n点“恢复默认”回到 ⌥⌘A。第二候选是 ⌥A，第三候选是 ⌃⌥⌘→。";
+"alert.recordBadTitle" = "无法使用这个快捷键";
+"alert.recordBadBody" = "请改按包含 Control、Option 或 Command 的组合。这个按键无法注册为全局快捷键。";
+"alert.loginTitle" = "无法修改登录启动";
+"alert.loginBody" = "%@\n\n请先把应用安装到固定的 Applications 目录，再启动并设置。不要从临时编译目录启用登录启动。";
+"alert.loginDenied" = "系统没有批准请求。";
+"alert.diagnosticsTitle" = "SideSpace 状态";
+"alert.diagnosticsBody" = "版本：1.0.0\n系统：%@\n路径：%@\n辅助功能：%@\n快捷键：%@（注册 %@）\nDock 边距: %d pt\n忙碌：%@\n最近状态：%@%@\n\n本程序未上传日志；诊断不包含 Chrome 标签页或网页内容。";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "整理 Google Chrome 窗口的菜单栏工具。\n兼容：Apple Silicon，macOS 26.0 及以上。\n\nChrome 不在前面时，快捷键只把它显示出来。\n在选中屏幕左侧预留空间；只有一块屏幕时在该屏幕预留。其他屏幕使用系统可用区域。\n\n默认快捷键是 ⌥⌘A，可在菜单中更换。\n不读取网页内容，不联网。";
+"alert.welcomeTitle" = "欢迎使用 SideSpace";
+"alert.welcomeBody" = "点「前往授权」，按这个路径打开 SideSpace：
+
+【系统设置】→【隐私与安全性】→【辅助功能】
+
+在列表中选择 SideSpace，打开它右侧的开关。如果列表里没有 SideSpace，点左下角「+」，选中 SideSpace，再打开开关。
+
+这项权限在系统设置里的说明比较宽。SideSpace只会用它调整 Chrome 窗口的位置和大小：不读取网页内容，不记录按键，不截屏，也不联网。打开开关后，默认快捷键 ⌥⌘A 就可以使用。";
+"alert.allow" = "前往授权";
+"alert.later" = "稍后";
+"alert.authorizedDone" = "已完成授权";
+"alert.welcomeGrantedTitle" = "已获得辅助功能权限";
+"alert.welcomeGrantedBody" = "现在可以整理 Chrome 窗口。默认快捷键是 ⌥⌘A。";
+"diag.allowed" = "已授权";
+"diag.denied" = "未授权";
+"diag.registered" = "成功";
+"diag.failed" = "失败";
+"diag.yes" = "是";
+"diag.no" = "否";
+"diag.errorMark" = "[错误] ";
+"key.space" = "空格";
+"key.unknown" = "键 %u";
+"recorder.hint" = "点击这里，然后按新组合键。\n至少包含 Control、Option 或 Command。";
+"recorder.needMods" = "至少包含 Control、Option 或 Command；仅 Shift 的组合不接受。";
+"recorder.reserved" = "这是常见系统或应用快捷键，请选其他组合。";
+"recorder.captured" = "已录制；保存时检查系统注册结果。\n无法保证检测到所有第三方快捷键冲突。";
+"recorder.access" = "快捷键录制区域";
+"ax.format" = "%@（AX %d）";
+"ax.disabled" = "辅助功能权限未开启或已被撤销";
+"ax.timeout" = "Chrome 未及时响应辅助功能请求，请稍后重试";
+"ax.invalid" = "窗口已关闭或改变，请再次按快捷键";
+"ax.unsupported" = "当前窗口不支持移动或调整尺寸";
+"ax.noValue" = "没有可操作的 Chrome 普通窗口，请先打开一个窗口";
+"ax.generic" = "窗口操作失败，请查看菜单中的最近状态";
+"svc.noChrome" = "没有找到 Google Chrome，请先安装正式版 Chrome。";
+"svc.openFail" = "无法打开 Chrome：%@";
+"svc.opened" = "已请求打开 Chrome；本次不改变窗口布局。";
+"svc.revealNeedsAccess" = "已请求显示 Chrome；窗口控制仍需辅助功能权限。";
+"svc.noPlainWindow" = "Chrome 已激活，但没有普通窗口；请先打开一个窗口。";
+"svc.raiseUnconfirmed" = "已请求激活 Chrome；窗口置前未确认（AX %d）。";
+"svc.revealed" = "Chrome 已显示；没有改变窗口位置或尺寸。";
+"svc.needAccess" = "请打开菜单中的“辅助功能权限…”授权 SideSpace。";
+"svc.noDisplay" = "无法读取可用显示器，请稍后再试。";
+"svc.unminimized" = "已恢复最小化窗口；本次不改变布局。";
+"svc.fullscreen" = "Chrome 正处于系统全屏模式，请先退出全屏再使用布局快捷键。";
+"svc.sheet" = "请先关闭 Chrome 的保存、打印或其他模态对话框。";
+"svc.invalidPlan" = "无法生成有效布局，请检查屏幕和边距设置。";
+"svc.alreadyThere" = "已经是目标布局，当前没有可切换的内外屏。";
+"svc.cancelled" = "前台应用已改变，已取消后续窗口调整。";
+"svc.displayGone" = "目标显示器已断开，请再次按快捷键重新判断。";
+"svc.internalDone" = "内屏布局完成：实际左边距 %.0f pt。";
+"svc.externalDone" = "外接屏已最大化到系统可用区域。";
+"svc.sizeRejected" = "Chrome 未接受完整目标尺寸；已停止重试，请检查最小尺寸或系统平铺状态。";
+
+"menu.dockDisplay" = "Dock 所在屏幕";
+
+"menu.dockBuiltIn" = "内建屏幕（默认）";
+
+"menu.dockDisconnected" = "选中的外接屏幕未连接";
+
+"menu.dockSingleHint" = "只有一块屏幕时，在该屏幕应用边距";
+
+"status.dockSaved" = "Dock 屏幕已保存，下次快捷键时应用。";
+
+"status.dockUnsaved" = "Dock 屏幕已在本次运行生效，但写入配置失败。";
+
+"svc.layoutDone" = "布局完成：实际左边距 %.0f pt。";

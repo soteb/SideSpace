@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "Arrange window";
+"menu.margin" = "Dock margin";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "Custom…";
+"menu.shortcut" = "Shortcut";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    Default";
+"menu.roleSecond" = "    Second";
+"menu.roleThird" = "    Third";
+"menu.login" = "Launch at login";
+"menu.loginPending" = "Launch at login (approval needed)…";
+"menu.permission" = "Accessibility…";
+"menu.permissionOn" = "Accessibility: allowed…";
+"menu.permissionOff" = "Accessibility: not allowed…";
+"menu.recheck" = "Recheck permission and shortcut";
+"menu.memoryCurrent" = "Current memory: —";
+"menu.memoryCurrentFormat" = "Current memory: %@";
+"menu.memoryCurrentFail" = "Current memory: unavailable";
+"menu.memoryAverage" = "Average this time: —";
+"menu.memoryAverageFormat" = "Average this time: %@";
+"menu.memoryStartup" = "Resident at launch: —";
+"menu.memoryStartupFormat" = "Resident at launch: %@";
+"menu.memoryStartupFail" = "Resident at launch: unavailable";
+"menu.ready" = "Ready";
+"menu.diagnostics" = "Status and diagnostics…";
+"menu.about" = "About SideSpace…";
+"menu.quit" = "Quit SideSpace";
+"menu.language" = "Language";
+"menu.languageFollow" = "Follow system";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "Could not register the shortcut (%d). Choose another one, or free the same binding in another app.";
+"status.needPermission" = "Allow Accessibility from the menu, then use the shortcut.";
+"status.ready" = "Ready";
+"status.displayChanged" = "The display or sleep state changed. The next shortcut press reads the layout again.";
+"status.marginSaved" = "Margin saved. It applies on the next shortcut. The current window stays where it is.";
+"status.marginUnsaved" = "The margin applies for this run, but the setting could not be saved.";
+"status.shortcutSaved" = "Shortcut is active.";
+"status.shortcutUnsaved" = "The shortcut works for this run, but the setting could not be saved.";
+"status.shortcutNew" = "The new shortcut is active.";
+"status.shortcutNewUnsaved" = "The new shortcut works for this run, but the setting could not be saved.";
+"status.shortcutRestoreFail" = "Could not restore the previous shortcut. Set it again, or clear a conflict in another app.";
+"status.permissionOpened" = "Allow SideSpace in System Settings, then choose Recheck permission and shortcut.";
+"status.recheckConflict" = "The shortcut is still not registered. Check for a conflicting binding.";
+"status.recheckReady" = "Permission and shortcut are ready.";
+"status.recheckDenied" = "Accessibility is still not allowed. After a rebuild, remove the old entry and add SideSpace again.";
+"status.loginNeedsApproval" = "The login item needs approval. Open Login Items in System Settings.";
+"status.loginUpdated" = "Launch at login has been updated.";
+"status.languageSaved" = "Language updated.";
+"status.languageUnsaved" = "The language changed for this run, but the setting could not be saved.";
+"alert.ok" = "OK";
+"alert.save" = "Save";
+"alert.cancel" = "Cancel";
+"alert.runningTitle" = "SideSpace is already running";
+"alert.runningBody" = "Another copy of SideSpace is running. Two copies compete for the same shortcut.\n\nChoose Quit Other Copy to close it and open this one.";
+"alert.runningReplace" = "Quit Other Copy";
+"alert.restore" = "Restore default";
+"alert.hotkeyTitle" = "Could not register the shortcut";
+"alert.hotkeyBody" = "The system returned %d. Choose another combination, or clear the same binding in Raycast or another app.";
+"alert.marginTitle" = "Dock margin";
+"alert.marginBody" = "Enter an integer from 0 to 500. The unit is a macOS point (pt).\nSpace reserved for the Dock is not added again.\nReserve space on the left of the selected display. With one display, always reserve space there. Other displays use the visible area.";
+"alert.marginBadTitle" = "Enter a valid margin";
+"alert.marginBadBody" = "Only integers from 0 to 500 are accepted, for example 50.";
+"alert.recordTitle" = "Set the global shortcut";
+"alert.recordBody" = "Press the new combination below. The current shortcut pauses while recording.\nRestore default returns to ⌥⌘A. The second choice is ⌥A, and the third is ⌃⌥⌘→.";
+"alert.recordBadTitle" = "This shortcut cannot be used";
+"alert.recordBadBody" = "Use a combination that includes Control, Option, or Command. This key cannot be registered as a global shortcut.";
+"alert.loginTitle" = "Could not change launch at login";
+"alert.loginBody" = "%@\n\nInstall the app in a permanent Applications folder, then open it and try again. Do not enable launch at login from a temporary build folder.";
+"alert.loginDenied" = "The system did not approve the request.";
+"alert.diagnosticsTitle" = "SideSpace status";
+"alert.diagnosticsBody" = "Version: 1.0.0\nSystem: %@\nPath: %@\nAccessibility: %@\nShortcut: %@ (registration %@)\nDock margin: %d pt\nBusy: %@\nLatest status: %@%@\n\nThis app does not upload logs. Diagnostics do not include Chrome tabs or page content.";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "A menu bar tool that arranges the Google Chrome window.\nCompatible with Apple Silicon and macOS 26.0 or later.\n\nIf Chrome is not in front, the shortcut only brings it forward.\nReserve space on the left of the selected display. With one display, always reserve space there. Other displays use the visible area.\n\nThe default shortcut is ⌥⌘A. You can change it in the menu.\nIt does not read page content and does not use the network.";
+"alert.welcomeTitle" = "Welcome to SideSpace";
+"alert.welcomeBody" = "Choose Allow, then follow this path and turn on SideSpace:
+
+System Settings → Privacy & Security → Accessibility
+
+Select SideSpace in the list and turn on the switch beside it. If SideSpace is not listed, click + at the lower left, choose SideSpace, then turn on the switch.
+
+System Settings describes this permission broadly. SideSpace uses it only to move and resize the Chrome window. It does not read page content, record keystrokes, take screenshots, or use the network. After the switch is on, the default shortcut ⌥⌘A is ready.";
+"alert.allow" = "Allow";
+"alert.later" = "Later";
+"alert.authorizedDone" = "Done";
+"alert.welcomeGrantedTitle" = "Accessibility is allowed";
+"alert.welcomeGrantedBody" = "SideSpace can now arrange the Chrome window. The default shortcut is ⌥⌘A.";
+"diag.allowed" = "Allowed";
+"diag.denied" = "Not allowed";
+"diag.registered" = "succeeded";
+"diag.failed" = "failed";
+"diag.yes" = "Yes";
+"diag.no" = "No";
+"diag.errorMark" = "[Error] ";
+"key.space" = "Space";
+"key.unknown" = "Key %u";
+"recorder.hint" = "Click here, then press the new combination.\nInclude Control, Option, or Command.";
+"recorder.needMods" = "Include Control, Option, or Command. Shift alone is not accepted.";
+"recorder.reserved" = "This is a common system or app shortcut. Choose another combination.";
+"recorder.captured" = "Recorded. Saving checks whether the system accepts it.\nOther apps may still use the same keys.";
+"recorder.access" = "Shortcut recorder";
+"ax.format" = "%@ (AX %d)";
+"ax.disabled" = "Accessibility is off or has been revoked";
+"ax.timeout" = "Chrome did not answer the Accessibility request in time. Try again.";
+"ax.invalid" = "The window closed or changed. Press the shortcut again.";
+"ax.unsupported" = "This window cannot be moved or resized";
+"ax.noValue" = "There is no ordinary Chrome window. Open one first.";
+"ax.generic" = "The window action failed. See the latest status in the menu.";
+"svc.noChrome" = "Google Chrome was not found. Install the official Chrome app first.";
+"svc.openFail" = "Could not open Chrome: %@";
+"svc.opened" = "Chrome was asked to open. This press does not change the window layout.";
+"svc.revealNeedsAccess" = "Chrome was asked to come forward. Controlling the window still requires Accessibility.";
+"svc.noPlainWindow" = "Chrome is active, but it has no ordinary window. Open one first.";
+"svc.raiseUnconfirmed" = "Chrome was asked to come forward; that was not confirmed (AX %d).";
+"svc.revealed" = "Chrome is visible. Its position and size were not changed.";
+"svc.needAccess" = "Choose Accessibility… in the menu and allow SideSpace.";
+"svc.noDisplay" = "The available displays could not be read. Try again.";
+"svc.unminimized" = "The minimized window was restored. This press does not change the layout.";
+"svc.fullscreen" = "Chrome is in system full screen. Leave full screen before using the layout shortcut.";
+"svc.sheet" = "Close Chrome’s save, print, or other dialog first.";
+"svc.invalidPlan" = "A valid layout could not be made. Check the displays and the margin.";
+"svc.alreadyThere" = "This is already the target layout. There is no other display to switch to.";
+"svc.cancelled" = "The frontmost app changed, so the window adjustment was cancelled.";
+"svc.displayGone" = "The target display disconnected. Press the shortcut again.";
+"svc.internalDone" = "Built-in layout applied. Actual left margin: %.0f pt.";
+"svc.externalDone" = "The external display is filled to the visible area.";
+"svc.sizeRejected" = "Chrome did not accept the full target size. Retries stopped. Check its minimum size or system tiling.";
+
+"menu.dockDisplay" = "Dock display";
+
+"menu.dockBuiltIn" = "Built-in display (default)";
+
+"menu.dockDisconnected" = "Selected display disconnected";
+
+"menu.dockSingleHint" = "One display: apply margin to that display";
+
+"status.dockSaved" = "Dock display saved. Applies on the next shortcut.";
+
+"status.dockUnsaved" = "Dock display applies this run, but could not be saved.";
+
+"svc.layoutDone" = "Layout applied. Actual left margin: %.0f pt.";

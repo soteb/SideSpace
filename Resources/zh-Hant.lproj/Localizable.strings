@@ -1,0 +1,143 @@
+/* SideSpace interface strings. */
+"menu.brand" = "SideSpace";
+"menu.arrangeFormat" = "%@    %@";
+"menu.arrange" = "整理視窗";
+"menu.margin" = "Dock 邊距";
+"menu.marginFormat" = "%@    %d pt";
+"menu.custom" = "自訂…";
+"menu.shortcut" = "快速鍵";
+"menu.shortcutFormat" = "%@    %@";
+"menu.roleDefault" = "    預設";
+"menu.roleSecond" = "    第二選項";
+"menu.roleThird" = "    第三選項";
+"menu.login" = "登入時啟動";
+"menu.loginPending" = "登入時啟動（待系統核准）…";
+"menu.permission" = "輔助使用權限…";
+"menu.permissionOn" = "輔助使用權限：已允許…";
+"menu.permissionOff" = "輔助使用權限：未允許…";
+"menu.recheck" = "重新檢查權限與快速鍵";
+"menu.memoryCurrent" = "目前記憶體：—";
+"menu.memoryCurrentFormat" = "目前記憶體：%@";
+"menu.memoryCurrentFail" = "目前記憶體：無法讀取";
+"menu.memoryAverage" = "這次平均：—";
+"menu.memoryAverageFormat" = "這次平均：%@";
+"menu.memoryStartup" = "背景常駐：—";
+"menu.memoryStartupFormat" = "背景常駐：%@";
+"menu.memoryStartupFail" = "背景常駐：無法讀取";
+"menu.ready" = "已就緒";
+"menu.diagnostics" = "查看狀態與診斷…";
+"menu.about" = "關於 SideSpace…";
+"menu.quit" = "結束 SideSpace";
+"menu.language" = "語言";
+"menu.languageFollow" = "跟隨系統";
+"menu.tooltip" = "SideSpace\n%@";
+"status.hotkeyFail" = "快速鍵註冊失敗（%d）。請改用選單中的另一組，或解除其他 App 的相同按鍵。";
+"status.needPermission" = "請從選單允許輔助使用，然後使用快速鍵。";
+"status.ready" = "已就緒";
+"status.displayChanged" = "顯示器或睡眠狀態已改變；下次按下快速鍵會重新讀取佈局。";
+"status.marginSaved" = "邊距已儲存，下次快速鍵時套用；目前視窗不移動。";
+"status.marginUnsaved" = "邊距在這次執行有效，但設定無法寫入。";
+"status.shortcutSaved" = "快速鍵已生效。";
+"status.shortcutUnsaved" = "快速鍵這次已生效，但設定無法儲存。";
+"status.shortcutNew" = "新快速鍵已生效。";
+"status.shortcutNewUnsaved" = "新快速鍵這次已生效，但設定無法儲存。";
+"status.shortcutRestoreFail" = "無法恢復原來的快速鍵，請重新設定或解除其他 App 的衝突。";
+"status.permissionOpened" = "請在系統設定中允許 SideSpace，然後點「重新檢查權限與快速鍵」。";
+"status.recheckConflict" = "快速鍵仍無法註冊，請檢查其他 App 的按鍵。";
+"status.recheckReady" = "權限與快速鍵都已就緒。";
+"status.recheckDenied" = "仍未獲得輔助使用權限；重新編譯後可能需要移除舊項目再加入。";
+"status.loginNeedsApproval" = "登入時啟動需要核准，請前往系統設定的登入項目。";
+"status.loginUpdated" = "登入時啟動已更新。";
+"status.languageSaved" = "語言已更新。";
+"status.languageUnsaved" = "語言已在這次執行切換，但設定無法儲存。";
+"alert.ok" = "好";
+"alert.save" = "儲存";
+"alert.cancel" = "取消";
+"alert.runningTitle" = "SideSpace 已在執行";
+"alert.runningBody" = "已經有另一份 SideSpace 在執行。兩份同時執行會搶同一個快速鍵。\n\n選擇「關閉舊的並繼續」，會先結束另一份，再開啟這一份。";
+"alert.runningReplace" = "關閉舊的並繼續";
+"alert.restore" = "恢復預設";
+"alert.hotkeyTitle" = "無法註冊快速鍵";
+"alert.hotkeyBody" = "系統傳回 %d。請改用另一組，或解除 Raycast 等 App 的相同按鍵。";
+"alert.marginTitle" = "Dock 邊距";
+"alert.marginBody" = "輸入 0–500 的整數，單位是 macOS 點（pt）。\n系統為 Dock 保留的空間不會重複加上。\n在選取螢幕左側預留空間；只有一個螢幕時在該螢幕預留。其他螢幕使用系統可用區域。";
+"alert.marginBadTitle" = "請輸入有效邊距";
+"alert.marginBadBody" = "只接受 0–500 的整數，例如 50。";
+"alert.recordTitle" = "設定全域快速鍵";
+"alert.recordBody" = "在下方按下新組合。錄製期間原快速鍵暫停。\n點「恢復預設」回到 ⌥⌘A。第二選項是 ⌥A，第三選項是 ⌃⌥⌘→。";
+"alert.recordBadTitle" = "無法使用這個快速鍵";
+"alert.recordBadBody" = "請改按包含 Control、Option 或 Command 的組合。這個按鍵無法註冊為全域快速鍵。";
+"alert.loginTitle" = "無法修改登入時啟動";
+"alert.loginBody" = "%@\n\n請先把 App 安裝到固定的 Applications 資料夾，再啟動並設定。不要從暫存編譯資料夾啟用登入時啟動。";
+"alert.loginDenied" = "系統沒有核准這項要求。";
+"alert.diagnosticsTitle" = "SideSpace 狀態";
+"alert.diagnosticsBody" = "版本：1.0.0\n系統：%@\n路徑：%@\n輔助使用：%@\n快速鍵：%@（註冊 %@）\nDock 邊距: %d pt\n忙碌：%@\n最近狀態：%@%@\n\n本程式不上傳紀錄；診斷不包含 Chrome 分頁或網頁內容。";
+"alert.aboutTitle" = "SideSpace 1.0.0";
+"alert.aboutBody" = "整理 Google Chrome 視窗的選單列工具。\n相容：Apple Silicon，macOS 26.0 及以上。\n\nChrome 不在前面時，快速鍵只把它顯示出來。\n在選取螢幕左側預留空間；只有一個螢幕時在該螢幕預留。其他螢幕使用系統可用區域。\n\n預設快速鍵是 ⌥⌘A，可在選單中更換。\n不讀取網頁內容，不上網。";
+"alert.welcomeTitle" = "歡迎使用 SideSpace";
+"alert.welcomeBody" = "點「前往允許」，依這個路徑開啟 SideSpace：
+
+【系統設定】→【隱私權與安全性】→【輔助使用】
+
+在列表中選擇 SideSpace，打開它右側的開關。如果列表裡沒有 SideSpace，請點左下角「+」，選取 SideSpace，再打開開關。
+
+這項權限在系統設定裡的說明比較寬。SideSpace只會用它調整 Chrome 視窗的位置和大小：不讀取網頁內容，不記錄按鍵，不截圖，也不上網。打開開關後，預設快速鍵 ⌥⌘A 就可以使用。";
+"alert.allow" = "前往允許";
+"alert.later" = "稍後";
+"alert.authorizedDone" = "已完成授權";
+"alert.welcomeGrantedTitle" = "已獲得輔助使用權限";
+"alert.welcomeGrantedBody" = "現在可以整理 Chrome 視窗。預設快速鍵是 ⌥⌘A。";
+"diag.allowed" = "已允許";
+"diag.denied" = "未允許";
+"diag.registered" = "成功";
+"diag.failed" = "失敗";
+"diag.yes" = "是";
+"diag.no" = "否";
+"diag.errorMark" = "[錯誤] ";
+"key.space" = "空白";
+"key.unknown" = "鍵 %u";
+"recorder.hint" = "按一下這裡，然後按新組合。\n至少包含 Control、Option 或 Command。";
+"recorder.needMods" = "至少包含 Control、Option 或 Command；只有 Shift 的組合不接受。";
+"recorder.reserved" = "這是常見的系統或 App 快速鍵，請選其他組合。";
+"recorder.captured" = "已錄製；儲存時會檢查系統是否接受。\n無法保證偵測到所有第三方快速鍵衝突。";
+"recorder.access" = "快速鍵錄製區";
+"ax.format" = "%@（AX %d）";
+"ax.disabled" = "輔助使用權限未開啟或已被撤銷";
+"ax.timeout" = "Chrome 未及時回應輔助使用要求，請稍後重試";
+"ax.invalid" = "視窗已關閉或改變，請再按一次快速鍵";
+"ax.unsupported" = "目前視窗不支援移動或調整大小";
+"ax.noValue" = "沒有可操作的 Chrome 一般視窗，請先打開一個視窗";
+"ax.generic" = "視窗操作失敗，請查看選單中的最近狀態";
+"svc.noChrome" = "找不到 Google Chrome，請先安裝正式版 Chrome。";
+"svc.openFail" = "無法打開 Chrome：%@";
+"svc.opened" = "已要求打開 Chrome；這次不改變視窗佈局。";
+"svc.revealNeedsAccess" = "已要求顯示 Chrome；控制視窗仍需要輔助使用權限。";
+"svc.noPlainWindow" = "Chrome 已啟動，但沒有一般視窗；請先打開一個視窗。";
+"svc.raiseUnconfirmed" = "已要求讓 Chrome 到前面；視窗置前未確認（AX %d）。";
+"svc.revealed" = "Chrome 已顯示；沒有改變視窗位置或大小。";
+"svc.needAccess" = "請打開選單中的「輔助使用權限…」允許 SideSpace。";
+"svc.noDisplay" = "無法讀取可用顯示器，請稍後再試。";
+"svc.unminimized" = "已恢復最小化視窗；這次不改變佈局。";
+"svc.fullscreen" = "Chrome 正處於系統全螢幕，請先退出全螢幕再使用佈局快速鍵。";
+"svc.sheet" = "請先關閉 Chrome 的儲存、列印或其他對話框。";
+"svc.invalidPlan" = "無法產生有效佈局，請檢查螢幕和邊距設定。";
+"svc.alreadyThere" = "已經是目標佈局，目前沒有可切換的內外螢幕。";
+"svc.cancelled" = "前景 App 已改變，已取消後續視窗調整。";
+"svc.displayGone" = "目標顯示器已中斷，請再按一次快速鍵。";
+"svc.internalDone" = "內建螢幕佈局完成：實際左邊距 %.0f pt。";
+"svc.externalDone" = "外接螢幕已放到系統可用區域。";
+"svc.sizeRejected" = "Chrome 未接受完整目標尺寸；已停止重試，請檢查最小尺寸或系統拼貼狀態。";
+
+"menu.dockDisplay" = "Dock 所在螢幕";
+
+"menu.dockBuiltIn" = "內建螢幕（預設）";
+
+"menu.dockDisconnected" = "選取的外接螢幕未連接";
+
+"menu.dockSingleHint" = "只有一個螢幕時，在該螢幕套用邊距";
+
+"status.dockSaved" = "Dock 螢幕已儲存，下次快速鍵時套用。";
+
+"status.dockUnsaved" = "Dock 螢幕已於本次執行生效，但儲存失敗。";
+
+"svc.layoutDone" = "排列完成：實際左邊距 %.0f pt。";
